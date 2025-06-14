@@ -45,52 +45,64 @@ export function Header() {
   />
 </div>
 
-      <nav
-        className={`flex items-center gap-7 md:flex ${
-          isActive
-            ? 'flex-col fixed top-0 left-0 w-screen h-screen bg-green-500 z-50'
-            : ''
-        }`}
-      >
-        {[
-          { to: "#home", label: "Home" },
-          { to: "#about", label: "About me" },
-          { to: "#project", label: "Projects" },
-          { to: "#contact", label: "Contact" },
-        ].map(({ to, label }) => (
-          <NavHashLink
-            key={label}
-            smooth
-            to={to}
-            onClick={closeMenu}
-            className="relative text-white text-base font-bold uppercase tracking-wide px-3 py-1 transition-all duration-300 hover:text-green-400"
-          >
-            <span className="relative z-10">{label}</span>
-            <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full" />
-          </NavHashLink>
-        ))}
+     <nav
+  className={`${
+    isActive ? 'flex' : 'hidden'
+  } md:flex flex-col md:flex-row items-center gap-7 absolute md:static top-[100%] left-0 w-full md:w-auto bg-[#212121] md:bg-transparent px-8 md:px-0 py-6 md:py-0 shadow-lg md:shadow-none z-40`}
+>
+  {[
+    { to: "#home", label: "Home" },
+    { to: "#about", label: "About me" },
+    { to: "#project", label: "Projects" },
+    { to: "#contact", label: "Contact" },
+  ].map(({ to, label }) => (
+    <NavHashLink
+      key={label}
+      smooth
+      to={to}
+      onClick={closeMenu}
+      className="relative text-white text-base font-bold uppercase tracking-wide px-3 py-2 transition-all duration-300 hover:text-green-400"
+    >
+      <span className="relative z-10">{label}</span>
+      <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full" />
+    </NavHashLink>
+  ))}
 
-        <a
-          href={Resume}
-          download
-          className="bg-gradient-to-r from-pink-500 to-purple-500 text-white text-base font-semibold uppercase tracking-wide px-6 py-2 rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
-        >
-          Resume
-        </a>
-      </nav>
+  <a
+    href={Resume}
+    download
+    onClick={closeMenu}
+    className="bg-gradient-to-r from-pink-500 to-purple-500 text-white text-base font-semibold uppercase tracking-wide px-6 py-2 rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
+  >
+    Resume
+  </a>
+</nav>
 
       {/* زر القائمة الجانبية (موبايل) */}
       <div
-        aria-expanded={isActive ? 'true' : 'false'}
-        aria-haspopup="true"
-        aria-label={isActive ? 'Fechar menu' : 'Abrir menu'}
-        className={`menu relative w-8 h-[2px] bg-white cursor-pointer md:hidden ${
-          isActive
-            ? 'bg-transparent before:rotate-45 before:bottom-0 after:rotate-[135deg] after:top-0'
-            : ''
-        } before:absolute before:w-full before:h-[2px] before:bg-white before:transition-all before:duration-300 before:bottom-[0.5rem] after:absolute after:w-full after:h-[2px] after:bg-white after:transition-all after:duration-300 after:top-[0.5rem]`}
-        onClick={() => setActive(!isActive)}
-      ></div>
+  aria-expanded={isActive ? 'true' : 'false'}
+  aria-haspopup="true"
+  aria-label={isActive ? 'Close menu' : 'Open menu'}
+  className="relative z-50 flex flex-col justify-between w-8 h-6 cursor-pointer md:hidden"
+  onClick={() => setActive(!isActive)}
+>
+  <span
+    className={`block h-1 bg-white rounded transition-all duration-300 ${
+      isActive ? 'rotate-45 translate-y-2' : ''
+    }`}
+  />
+  <span
+    className={`block h-1 bg-white rounded transition-all duration-300 ${
+      isActive ? 'opacity-0' : ''
+    }`}
+  />
+  <span
+    className={`block h-1 bg-white rounded transition-all duration-300 ${
+      isActive ? '-rotate-45 -translate-y-2' : ''
+    }`}
+  />
+</div>
+
     </header>
   )
 }

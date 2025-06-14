@@ -5,15 +5,19 @@ import { Form } from "./Form";
 export function Contact() {
   return (
     <section id="contact" className="mt-40">
-      <header className="text-center">
-        <h2 className="text-4xl text-center">Contact</h2>
-        <p className="text-purple-500 font-medium">
-          Ready to get started on your project?
-        </p>
-        <p className="text-purple-500 font-medium">
-          Contact me now for a Free consultation.
-        </p>
-      </header>
+    <header className="text-center">
+  <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+    Contact
+  </h2>
+  <p className="text-white ">
+    Ready to get started on your project?
+  </p>
+  <p className="text-white font-bold">
+    Contact me now for a Free consultation.
+  </p>
+</header>
+
+
 
       <div className="contacts flex items-center justify-center gap-8 mt-6 flex-wrap md:flex-nowrap">
         {/* Email Box */}
