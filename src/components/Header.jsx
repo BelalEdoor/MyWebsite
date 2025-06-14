@@ -1,13 +1,16 @@
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 import Resume from '../assets/My_Resume-Bilal_Edoor.pdf'
+import sunIcon from '../assets/sun.png'
+import moonIcon from '../assets/moon.png'
 
 export function Header() {
   const [isActive, setActive] = useState(false)
+  const [isDark, setIsDark] = useState(false)
 
   function toggleTheme() {
-    const html = document.documentElement
-    html.classList.toggle('light')
+    document.documentElement.classList.toggle('light')
+    setIsDark(!isDark)
   }
 
   function closeMenu() {
@@ -25,19 +28,18 @@ export function Header() {
         <span>{" Edoor/>"}</span>
       </HashLink>
 
-      <input
-        type="checkbox"
-        id="switch"
-        name="mode"
-        className="hidden peer"
-        onChange={toggleTheme}
-      />
-      <label
-        htmlFor="switch"
-        className="cursor-pointer w-[55px] h-[30px] bg-green-500 rounded-full relative ml-auto right-[10px] block"
+      {/* زر تغيير الثيم */}
+      <div
+        onClick={toggleTheme}
+    className="bg-green-500 hover:bg-green-600 text-white h-10 px-10 py-6 rounded-full cursor-pointer flex items-center ml-auto mr-4"
       >
-        <span className="block w-[20px] h-[20px] bg-white rounded-full absolute top-[5px] left-[4px] transition-transform duration-300 ease-in-out peer-checked:translate-x-[calc(100%-5px)] peer-checked:left-auto"></span>
-      </label>
+        <span>{isDark ? "Light" : "Dark"}</span>
+        <img
+          src={isDark ? sunIcon : moonIcon}
+          alt="Theme Icon"
+          className="w-[25px] ml-2"
+        />
+      </div>
 
       <nav
         className={`flex items-center gap-[1.8rem] md:flex ${
@@ -68,7 +70,7 @@ export function Header() {
           onClick={closeMenu}
           className="text-white font-medium uppercase px-2 hover:brightness-75"
         >
-          Project
+          Projects
         </NavHashLink>
         <NavHashLink
           smooth
@@ -87,12 +89,15 @@ export function Header() {
         </a>
       </nav>
 
+      {/* زر القائمة الجانبية (موبايل) */}
       <div
         aria-expanded={isActive ? 'true' : 'false'}
         aria-haspopup="true"
         aria-label={isActive ? 'Fechar menu' : 'Abrir menu'}
         className={`menu relative w-8 h-[2px] bg-white cursor-pointer md:hidden ${
-          isActive ? 'bg-transparent before:rotate-45 before:bottom-0 after:rotate-[135deg] after:top-0' : ''
+          isActive
+            ? 'bg-transparent before:rotate-45 before:bottom-0 after:rotate-[135deg] after:top-0'
+            : ''
         } before:absolute before:w-full before:h-[2px] before:bg-white before:transition-all before:duration-300 before:bottom-[0.5rem] after:absolute after:w-full after:h-[2px] after:bg-white after:transition-all after:duration-300 after:top-[0.5rem]`}
         onClick={() => setActive(!isActive)}
       ></div>

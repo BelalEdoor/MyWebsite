@@ -10,13 +10,9 @@ export function Footer() {
       className="bg-[#2b2b2b] px-[15rem] py-12 mt-40 flex items-center justify-between flex-wrap md:flex-nowrap md:text-left text-center gap-8 md:gap-0
                  max-[800px]:flex-col max-[800px]:px-[10rem] max-[600px]:px-4"
     >
-      <a href="0" className="logo text-[2.8rem]">
-        <span>www.Belal</span>
-        <span> Edoor.in</span>
-      </a>
-
+     
       <div>
-        <p className="tracking-[0.2rem] flex items-center gap-2 text-white text-[1.2rem] max-[600px]:text-[1.2rem]">
+        <p className="tracking-[0.2rem] flex items-center gap-2 text-white text-[1.8rem] max-[600px]:text-[1.2rem]">
           Engineer Belal Edoor
         </p>
       </div>

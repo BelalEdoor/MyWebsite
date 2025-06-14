@@ -5,8 +5,11 @@ import ScrollAnimation from "react-animate-on-scroll";
 export function Project() {
   return (
     <section id="project" className="mt-40 px-6">
-      <h2 className="text-center text-4xl mb-12">My Projects</h2>
+        <ScrollAnimation animateIn="fadedown">
+      <h2 className="text-center mt-8 text-green-500 text-[2.5rem] font-semibold">My Projects</h2>
+      </ScrollAnimation >
       <div className="grid gap-8 overflow-hidden grid-cols-3">
+        
         {/* Card 1 */}
         <ScrollAnimation animateIn="flipInX">
           <div className="p-8 bg-gray-900 rounded-xl flex flex-col h-full text-white hover:translate-y-[-5px] hover:bg-pink-500 transition duration-300">
