@@ -1,6 +1,6 @@
 import { NavHashLink } from "react-router-hash-link";
 import ScrollAnimation from "react-animate-on-scroll";
-import Illustration from "../assets/illustration.svg";
+import main from "../assets/main.png";
 import linkedin from '../assets/linkedin.svg';
 import githubIcon from '../assets/github.svg';
 import whatsapp from '../assets/whatsapp.svg';
@@ -15,28 +15,30 @@ export function Hero() {
     >
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p className="text-[1.8rem] flex items-center gap-1">
-            Hello <img src={Hello} alt="Hello" width="20px" />
-            , I'm
+          <p className="text-[1.8rem] flex items-center gap-1 dark:text-white">
+            Hello <img src={Hello} alt="Hello" width="20px" />, I'm
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={200}>
-          <h1 className="text-[7rem] max-md:text-[5rem]">Belal Edoor</h1>
+          <h1 className="text-[7rem] max-md:text-[5rem] dark:text-white">Belal Edoor</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={400}>
-          <h3 className="text-green-500 my-4">Software Engineer</h3>
+<h2 className="my-4 text-[2rem] bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent font-semibold">
+  Software Engineer
+</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={600}>
-          <p className="mb-20">2 Year Experience</p>
+          <p className="mb-20 dark:text-white">2 Year Experience</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={800}>
-          <NavHashLink
-            smooth
-            to="#contact"
-            className="button mt-20 inline-block px-24 py-5 bg-blue-600 text-white rounded uppercase"
-          >
-            Contact With Me
-          </NavHashLink>
+         <NavHashLink
+  smooth
+  to="#contact"
+  className="mt-20 inline-block px-8 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-purple-500 to-pink-500 shadow-md hover:from-purple-600 hover:to-pink-600 transition duration-300"
+>
+  Contact With Me
+</NavHashLink>
+
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1000}>
           <div className="social-media inline-flex items-center gap-4 pt-20 pl-4">
@@ -59,9 +61,10 @@ export function Hero() {
           </div>
         </ScrollAnimation>
       </div>
-      <div className="hero-image max-md:hidden">
+
+      <div className="hero-image max-md:hidden" style={{ transform: 'translateY(-160px)' }}>
         <ScrollAnimation animateIn="fadeInRight" delay={1000}>
-          <img src={Illustration} alt="Ilustração" className="max-w-[500px]" />
+          <img src={main} alt="Ilustração" className="max-w-[600px]" />
         </ScrollAnimation>
       </div>
     </section>

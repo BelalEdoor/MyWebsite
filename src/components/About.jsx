@@ -16,72 +16,62 @@ export function About() {
     >
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h1 className="inline-block mb-8 text-[4rem] mt-0 text-green-500 font-semibold">
+          <h1 className="inline-block mb-8 text-[3rem] mt-0 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent font-semibold">
             About me
           </h1>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={100}>
-          <p className="text-[1.6rem] font-medium tracking-wide">
+          <p className="text-[1.5rem] font-medium tracking-wide text-white">
             Hi there! I'm Belal Edoor, a Software Engineer skilled in web
             development, and scalable software solutions
           </p>
         </ScrollAnimation>
 
-        <ScrollAnimation
-          animateIn="fadeInLeft"
-          delay={200}
-          className="my-8"
-        ></ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeInLeft" delay={300}></ScrollAnimation>
-
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
-            <h2 className="mt-8 text-green-500 text-[2.5rem] font-semibold">
+            <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-[2.3rem] font-semibold">
               Education:
             </h2>
-            <h3 className="text-[2rem] font-medium">
+            <h3 className="text-[2rem] font-medium text-white">
               Computer Systems Engineering (CSE)
             </h3>
-            <p className="text-[1.6rem] font-medium tracking-wide">
+            <p className="text-[1.5rem] font-medium tracking-wide text-white">
               Faculty of Information Technology and Computer Engineering,
-              Palestine Polytechnic University | September 2020 - Present
+              Palestine Polytechnic University | September 2020 - Present | 3.75 GPA
             </p>
-            <p className="text-[1.6rem] font-medium tracking-wide">3.75 GPA</p>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-            <h2 className="mt-8 text-green-500 text-[2.5rem] font-semibold">
+            <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-[2.5rem] font-semibold">
               Training courses:
             </h2>
-            <h4 className="text-[1.5rem] font-medium">Front End Developer</h4>
-            <p className="text-[1.4rem] font-medium tracking-wide">
+            <h4 className="text-[1.4rem] font-medium text-white">Front End Developer</h4>
+            <p className="text-[1.3rem] font-medium tracking-wide text-white">
               Udacity Platform | October 2024 - March 2025 | Remotly
             </p>
-            <h4 className="text-[1.5rem] font-medium">React JS</h4>
-            <p className="text-[1.4rem] font-medium tracking-wide">
+            <h4 className="text-[1.4rem] font-medium text-white">React JS</h4>
+            <p className="text-[1.3rem] font-medium tracking-wide text-white">
               Code Academy |Palestine Polytechnic University | March 2024 - June
               2024 | Onsite
             </p>
-            <h4 className="text-[1.5rem] font-medium">NLP & LLM Training</h4>
-            <p className="text-[1.4rem] font-medium tracking-wide">
-              Gaza Sky Geeks | June 2025 - present
-              2024 | Remotly
+            <h4 className="text-[1.4rem] font-medium text-white">NLP & LLM Training</h4>
+            <p className="text-[1.3rem] font-medium tracking-wide text-white">
+              Gaza Sky Geeks | June 2025 - present | Remotly
             </p>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
-          <h2 className="mt-8 text-green-500 text-2xl font-semibold">
+          <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-2xl font-semibold">
             Here are my main skills:
           </h2>
         </ScrollAnimation>
 
         <div className="hard-skills mt-6 flex items-center flex-wrap gap-[1.8rem]">
-          {[python, java, jsIcon, reactIcon, htmlIcon, cssIcon, tailwind].map(
+          {[ java, htmlIcon, cssIcon, jsIcon ,reactIcon, tailwind , python].map(
             (icon, i) => (
               <div
                 className="hability flex flex-col items-center"
@@ -104,7 +94,7 @@ export function About() {
           <img
             src={belaledoor}
             alt="Belal Edoor"
-            className="mt-8 w-full max-w-[500px] aspect-square rounded-full object-cover grayscale-0 transition duration-500 hover:grayscale-0"
+            className="mt-8 w-full max-w-[500px] aspect-square rounded-full object-cover border-4 border-gradient-to-r from-pink-500 to-purple-500 p-1"
           />
         </ScrollAnimation>
       </div>

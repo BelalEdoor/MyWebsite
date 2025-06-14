@@ -18,72 +18,62 @@ export function Header() {
   }
 
   return (
-    <header className="fixed top-0 left-0 w-screen z-[1000] flex justify-between items-center px-[10rem] py-[1.8rem] bg-[#21212180] backdrop-blur-md">
+    <header className="fixed top-0 left-0 w-full z-[1000] flex justify-between items-center px-16 py-6 bg-[#21212180] backdrop-blur-lg shadow-md">
       <HashLink
         smooth
         to="#home"
-        className="logo text-white text-[2.8rem] font-bold flex gap-1"
+        className="text-white text-4xl font-extrabold tracking-wide flex gap-1"
       >
         <span>{"<Belal "}</span>
-        <span>{" Edoor/>"}</span>
+        <span className="text-gradient bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+          {"Edoor/>"}
+        </span>
       </HashLink>
 
       {/* زر تغيير الثيم */}
       <div
-        onClick={toggleTheme}
-    className="bg-green-500 hover:bg-green-600 text-white h-10 px-10 py-6 rounded-full cursor-pointer flex items-center ml-auto mr-4"
-      >
-        <span>{isDark ? "Light" : "Dark"}</span>
-        <img
-          src={isDark ? sunIcon : moonIcon}
-          alt="Theme Icon"
-          className="w-[25px] ml-2"
-        />
-      </div>
+  onClick={toggleTheme}
+  className="group flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-5 py-2 rounded-full cursor-pointer shadow-md hover:scale-105 transition-all duration-300 ml-auto mr-4"
+>
+  <span className="text-base font-semibold group-hover:tracking-wide transition-all duration-300">
+    {isDark ? "Light" : "Dark"}
+  </span>
+  <img
+    src={isDark ? sunIcon : moonIcon}
+    alt="Theme Icon"
+    className="w-[22px] transition-transform duration-300 group-hover:rotate-12"
+  />
+</div>
 
       <nav
-        className={`flex items-center gap-[1.8rem] md:flex ${
+        className={`flex items-center gap-7 md:flex ${
           isActive
-            ? 'flex-col fixed top-0 left-0 w-screen h-screen bg-green-500 opacity-100 visible z-50'
-            : 'opacity-100 visible'
+            ? 'flex-col fixed top-0 left-0 w-screen h-screen bg-green-500 z-50'
+            : ''
         }`}
       >
-        <NavHashLink
-          smooth
-          to="#home"
-          onClick={closeMenu}
-          className="text-white font-medium uppercase px-2 hover:brightness-75"
-        >
-          Home
-        </NavHashLink>
-        <NavHashLink
-          smooth
-          to="#about"
-          onClick={closeMenu}
-          className="text-white font-medium uppercase px-2 hover:brightness-75"
-        >
-          About me
-        </NavHashLink>
-        <NavHashLink
-          smooth
-          to="#project"
-          onClick={closeMenu}
-          className="text-white font-medium uppercase px-2 hover:brightness-75"
-        >
-          Projects
-        </NavHashLink>
-        <NavHashLink
-          smooth
-          to="#contact"
-          onClick={closeMenu}
-          className="text-white font-medium uppercase px-2 hover:brightness-75"
-        >
-          Contact
-        </NavHashLink>
+        {[
+          { to: "#home", label: "Home" },
+          { to: "#about", label: "About me" },
+          { to: "#project", label: "Projects" },
+          { to: "#contact", label: "Contact" },
+        ].map(({ to, label }) => (
+          <NavHashLink
+            key={label}
+            smooth
+            to={to}
+            onClick={closeMenu}
+            className="relative text-white text-base font-bold uppercase tracking-wide px-3 py-1 transition-all duration-300 hover:text-green-400"
+          >
+            <span className="relative z-10">{label}</span>
+            <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full" />
+          </NavHashLink>
+        ))}
+
         <a
           href={Resume}
           download
-          className="button bg-pink-500 text-white px-6 py-1 rounded uppercase font-medium hover:brightness-75"
+          className="bg-gradient-to-r from-pink-500 to-purple-500 text-white text-base font-semibold uppercase tracking-wide px-6 py-2 rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
         >
           Resume
         </a>

@@ -79,7 +79,9 @@ html {
 body {
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--black);
+
+  /* ✅ خلفية تدرج احترافي بدلاً من الأسود العادي */
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   color: #fff;
 }
 

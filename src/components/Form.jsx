@@ -14,17 +14,17 @@ export function Form() {
   }
 
   useEffect(() => {
-  if (state.succeeded) {
-    setShowThanks(true)
-    toast.success('Email successfully sent!', {
-      position: "bottom-left",
-      pauseOnFocusLoss: false,
-      closeOnClick: true,
-      hideProgressBar: false,
-      toastId: 'succeeded',
-    })
-  }
-}, [state.succeeded])
+    if (state.succeeded) {
+      setShowThanks(true)
+      toast.success('Email successfully sent!', {
+        position: "bottom-left",
+        pauseOnFocusLoss: false,
+        closeOnClick: true,
+        hideProgressBar: false,
+        toastId: 'succeeded',
+      })
+    }
+  }, [state.succeeded])
 
   return (
     <div className="mt-12 grid place-items-center">
@@ -44,22 +44,56 @@ export function Form() {
               name="email"
               onChange={(e) => verifyEmail(e.target.value)}
               required
-              className="w-full px-8 py-4 rounded-[1.6rem] outline-none border border-white bg-transparent text-white font-semibold placeholder-white"
+              className="w-full px-8 py-4 rounded-[1.6rem] outline-none
+                border-2 border-transparent
+                bg-transparent
+                text-white font-semibold placeholder-pink-400
+                focus:border-transparent
+                focus:outline-none
+                focus:ring-4
+                focus:ring-pink-500
+                focus:ring-offset-0
+                transition
+                "
+              style={{
+                backgroundImage: 'linear-gradient(to right, #ec4899, #8b5cf6)', // pink-500 to purple-500
+                backgroundClip: 'padding-box',
+              }}
             />
             <ValidationError prefix="Email" field="email" errors={state.errors} />
             <textarea
-              required
-              placeholder="Send a message to get started."
-              id="message"
-              name="message"
-              onChange={(e) => setMessage(e.target.value)}
-              className="w-full h-[20rem] px-8 py-4 rounded-[1.6rem] outline-none border border-white bg-transparent text-white font-semibold placeholder-white resize-none overflow-y-auto"
-            />
+  required
+  placeholder="Send a message to get started."
+  id="message"
+  name="message"
+  onChange={(e) => setMessage(e.target.value)}
+  className="w-full h-[20rem] px-8 py-4 rounded-[1.6rem] outline-none
+    border-2 border-pink-500
+    bg-transparent
+    text-white font-semibold placeholder-pink-400
+    resize-none overflow-y-auto
+    focus:outline-none
+    focus:ring-4
+    focus:ring-pink-500
+    focus:ring-offset-0
+    transition
+  "
+  style={{
+    borderImageSlice: 1,
+    borderImageSource: 'linear-gradient(to right, #ec4899, #8b5cf6)',
+  }}
+/>
+
             <ValidationError prefix="Message" field="message" errors={state.errors} />
             <button
               type="submit"
               disabled={state.submitting || !validEmail || !message}
-              className="px-24 py-4 uppercase text-[#fbfbfb] rounded-md mt-2 text-center"
+              className={`px-24 py-4 uppercase text-white rounded-md mt-2 text-center
+                ${state.submitting || !validEmail || !message
+                  ? 'bg-gradient-to-r from-pink-300 to-purple-300 cursor-not-allowed text-gray-500'
+                  : 'bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600'
+                }
+                transition-colors duration-200`}
             >
               Submit
             </button>
