@@ -66,7 +66,7 @@ export function About() {
 
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-2xl font-semibold">
-            Here are my main skills:
+            Here are my main Skills:
           </h2>
         </ScrollAnimation>
 

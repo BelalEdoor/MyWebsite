@@ -4,7 +4,6 @@ import main from "../assets/main.png";
 import linkedin from '../assets/linkedin.svg';
 import githubIcon from '../assets/github.svg';
 import whatsapp from '../assets/whatsapp.svg';
-import Hello from '../assets/Hello.gif';
 import telegram from '../assets/telegram.svg';
 
 export function Hero() {
@@ -16,7 +15,7 @@ export function Hero() {
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
           <p className="text-[1.8rem] flex items-center gap-1 dark:text-white">
-            Hello <img src={Hello} alt="Hello" width="20px" />, I'm
+            Hello I'm
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={200}>
