@@ -109,7 +109,6 @@ export function Header() {
 
         <a
           href={Resume}
-          download
           onClick={closeMenu}
           className="bg-gradient-to-r from-pink-500 to-purple-500 text-white text-base font-semibold uppercase tracking-wide px-6 py-2 rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
         >
