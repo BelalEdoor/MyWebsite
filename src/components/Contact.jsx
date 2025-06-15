@@ -57,7 +57,7 @@ export function Contact() {
           hover:from-pink-600 hover:to-purple-600
           transition-colors duration-200"
         >
-          <a href="tel:+970568033525">
+          <a href="tel:+970 568 033 525">
             <img src={phoneIcon} alt="Phone No" className="w-16" />
           </a>
           <a

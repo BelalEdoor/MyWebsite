@@ -1,4 +1,4 @@
-import belaledoor from "../assets/belaledoor1.jpg";
+import belaledoor from "../assets/belaledoor1.png";
 import python from "../assets/python.svg";
 import java from "../assets/java.svg";
 import htmlIcon from "../assets/html-icon.svg";
@@ -16,13 +16,13 @@ export function About() {
     >
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h1 className="inline-block mb-8 text-[3rem] mt-0 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent font-semibold">
+          <h1 className="inline-block mb-8 text-[2.5rem] mt-0 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent font-semibold">
             About me
           </h1>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={100}>
-          <p className="text-[1.5rem] font-medium tracking-wide text-white">
+          <p className="text-[1.4rem] font-medium tracking-wide text-white">
             Hi there! I'm Belal Edoor, a Software Engineer skilled in web
             development, and scalable software solutions
           </p>
@@ -33,10 +33,10 @@ export function About() {
             <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-[2.3rem] font-semibold">
               Education:
             </h2>
-            <h3 className="text-[2rem] font-medium text-white">
+            <h3 className="text-[1.8rem] font-medium text-white">
               Computer Systems Engineering (CSE)
             </h3>
-            <p className="text-[1.5rem] font-medium tracking-wide text-white">
+            <p className="text-[1.4rem] font-medium tracking-wide text-white">
               Faculty of Information Technology and Computer Engineering,
               Palestine Polytechnic University | September 2020 - Present | 3.75 GPA
             </p>
@@ -45,7 +45,7 @@ export function About() {
 
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-            <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-[2.5rem] font-semibold">
+            <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-[2.4rem] font-semibold">
               Training courses:
             </h2>
             <h4 className="text-[1.4rem] font-medium text-white">Front End Developer</h4>
@@ -94,7 +94,8 @@ export function About() {
           <img
             src={belaledoor}
             alt="Belal Edoor"
-            className="mt-8 w-full max-w-[500px] aspect-square rounded-full object-cover border-4 border-gradient-to-r from-pink-500 to-purple-500 p-1"
+            className=" w-full max-w-[600px] aspect-square  object-cover  border-gradient-to-r  p-1"
+            style={{ transform: 'translateY(60px)' }}
           />
         </ScrollAnimation>
       </div>

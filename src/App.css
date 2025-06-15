@@ -79,11 +79,11 @@ html {
 body {
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
-
-  /* ✅ خلفية تدرج احترافي بدلاً من الأسود العادي */
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background-color: #0f0f1c; /* بدل var(--black) هذا لون رمادي غامق فاتح */
   color: #fff;
+  color: #bdbdbd;
 }
+
 
 body, input, textarea, button {
   font-family: 'Red Hat Display', sans-serif;
@@ -119,4 +119,21 @@ button:disabled, .button:disabled {
   /* ::first-letter {
     color: var(--green);
   } */
+}
+
+:root.light body, 
+:root.light body * {
+  color: var(--black) !important;
+}
+:root.light h1, 
+:root.light h2, 
+:root.light h3 {
+  background: linear-gradient(to right, #ec4899, #8b5cf6); /* pink-500 to purple-500 */
+  background-clip: text; /* ✅ النسخة القياسية */
+  -webkit-background-clip: text; /* ✅ دعم Safari/Chrome */
+  -webkit-text-fill-color: transparent;
+}
+
+:root.light .force-white {
+  color: #fff !important;
 }
