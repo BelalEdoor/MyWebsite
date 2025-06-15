@@ -42,7 +42,7 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={1000}>
           <div className="social-media inline-flex items-center gap-4 pt-20 pl-4">
             <a
-              href="https://www.linkedin.com/in/%D8%A8%D9%84%D8%A7%D9%84-%D8%B9%D8%AF%D9%88%D8%B1-56544230b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              href="https://www.linkedin.com/in/bilaledoor"
               target="_blank"
               rel="noreferrer"
             >
@@ -51,7 +51,7 @@ export function Hero() {
             <a href="https://github.com/BilalEdoor" target="_blank" rel="noreferrer">
               <img src={githubIcon} alt="GitHub" className="w-[3.5rem]" />
             </a>
-            <a href="https://wa.me/+970568033525" target="_blank" rel="noreferrer">
+            <a href="https://wa.me/0568033525" target="_blank" rel="noreferrer">
               <img src={whatsapp} alt="Whatsapp" className="w-[3.5rem]" />
             </a>
             <a href="https://t.me/Bilal_edoor" target="_blank" rel="noreferrer">
