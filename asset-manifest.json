@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9f1d89fc.css",
-    "main.js": "/portfolio/static/js/main.37c9f073.js",
+    "main.js": "/portfolio/static/js/main.94cffc2c.js",
     "static/media/main.png": "/portfolio/static/media/main.bd04c3b15e5307f0d447.png",
     "static/media/My_Resume-Bilal_Edoor.pdf": "/portfolio/static/media/My_Resume-Bilal_Edoor.0eb6d767f4c0b78cbc8f.pdf",
     "static/media/belaledoor1.png": "/portfolio/static/media/belaledoor1.4a00f35a1fc4243e009f.png",
@@ -26,10 +26,10 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/portfolio/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.9f1d89fc.css.map": "/portfolio/static/css/main.9f1d89fc.css.map",
-    "main.37c9f073.js.map": "/portfolio/static/js/main.37c9f073.js.map"
+    "main.94cffc2c.js.map": "/portfolio/static/js/main.94cffc2c.js.map"
   },
   "entrypoints": [
     "static/css/main.9f1d89fc.css",
-    "static/js/main.37c9f073.js"
+    "static/js/main.94cffc2c.js"
   ]
 }
