@@ -56,6 +56,15 @@ export function Project() {
       technologies: ["Node js", "HTML", "CSS", "Javascript"],
       ImgCard: imgCapstoneTravel,
     },
+    {
+      title: "Capstone travel app",
+      description:
+        "A frontend capstone project that builds a travel app, integrating APIs to fetch weather, location, and trip details for a dynamic user experience.",
+      github: "https://github.com/BilalEdoor/FEND-Capstone-travel-app.git",
+      external: "https://github.com/BilalEdoor/FEND-Capstone-travel-app.git",
+      technologies: ["Node js", "HTML", "CSS", "Javascript"],
+      ImgCard: imgCapstoneTravel,
+    },
   ];
 
   return (
