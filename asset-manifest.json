@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9f1d89fc.css",
-    "main.js": "/portfolio/static/js/main.0e0b5a4d.js",
+    "main.js": "/portfolio/static/js/main.c0abfb3f.js",
     "static/media/main.png": "/portfolio/static/media/main.bd04c3b15e5307f0d447.png",
     "static/media/My_Resume-Bilal_Edoor.pdf": "/portfolio/static/media/My_Resume-Bilal_Edoor.0eb6d767f4c0b78cbc8f.pdf",
     "static/media/belaledoor1.png": "/portfolio/static/media/belaledoor1.4a00f35a1fc4243e009f.png",
@@ -13,8 +13,8 @@
     "static/media/whatsapp.svg": "/portfolio/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
     "static/media/java.svg": "/portfolio/static/media/java.ea37baa6a1d1a1d45345798657d7d092.svg",
     "static/media/react-icon.svg": "/portfolio/static/media/react-icon.a010f287ea79ad0673b610a223faa951.svg",
-    "index.html": "/portfolio/index.html",
     "static/media/python.svg": "/portfolio/static/media/python.7658fc5b493f0fa4979b28893c05b15b.svg",
+    "index.html": "/portfolio/index.html",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.45bf2371ee6528cc27d66c08f8e43356.svg",
     "static/media/instagram.svg": "/portfolio/static/media/instagram.e9d6b5424508db6397a027a4e0fe0dd0.svg",
     "static/media/phone-icon.svg": "/portfolio/static/media/phone-icon.fc7195139d684fa2f6bb03b8b9816095.svg",
@@ -26,10 +26,10 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/portfolio/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.9f1d89fc.css.map": "/portfolio/static/css/main.9f1d89fc.css.map",
-    "main.0e0b5a4d.js.map": "/portfolio/static/js/main.0e0b5a4d.js.map"
+    "main.c0abfb3f.js.map": "/portfolio/static/js/main.c0abfb3f.js.map"
   },
   "entrypoints": [
     "static/css/main.9f1d89fc.css",
-    "static/js/main.0e0b5a4d.js"
+    "static/js/main.c0abfb3f.js"
   ]
 }
