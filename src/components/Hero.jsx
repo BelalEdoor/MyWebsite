@@ -51,7 +51,7 @@ export function Hero() {
             <a href="https://github.com/BilalEdoor" target="_blank" rel="noreferrer">
               <img src={githubIcon} alt="GitHub" className="w-[3.5rem]" />
             </a>
-            <a href="https://wa.me/0568033525" target="_blank" rel="noreferrer">
+            <a href="https://wa.me/970568033525" target="_blank" rel="noreferrer">
               <img src={whatsapp} alt="Whatsapp" className="w-[3.5rem]" />
             </a>
             <a href="https://t.me/Bilal_edoor" target="_blank" rel="noreferrer">
