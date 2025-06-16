@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9f1d89fc.css",
-    "main.js": "/portfolio/static/js/main.c0abfb3f.js",
+    "main.css": "/portfolio/static/css/main.3ff00c5c.css",
+    "main.js": "/portfolio/static/js/main.9714a262.js",
     "static/media/main.png": "/portfolio/static/media/main.bd04c3b15e5307f0d447.png",
     "static/media/My_Resume-Bilal_Edoor.pdf": "/portfolio/static/media/My_Resume-Bilal_Edoor.0eb6d767f4c0b78cbc8f.pdf",
     "static/media/belaledoor1.png": "/portfolio/static/media/belaledoor1.4a00f35a1fc4243e009f.png",
@@ -25,11 +25,11 @@
     "static/media/css-icon.svg": "/portfolio/static/media/css-icon.212d777ae2db63edb235490d487dc292.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/portfolio/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
-    "main.9f1d89fc.css.map": "/portfolio/static/css/main.9f1d89fc.css.map",
-    "main.c0abfb3f.js.map": "/portfolio/static/js/main.c0abfb3f.js.map"
+    "main.3ff00c5c.css.map": "/portfolio/static/css/main.3ff00c5c.css.map",
+    "main.9714a262.js.map": "/portfolio/static/js/main.9714a262.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f1d89fc.css",
-    "static/js/main.c0abfb3f.js"
+    "static/css/main.3ff00c5c.css",
+    "static/js/main.9714a262.js"
   ]
 }
