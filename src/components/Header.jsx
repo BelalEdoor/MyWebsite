@@ -1,6 +1,5 @@
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState, useEffect } from 'react'
-import Resume from '../assets/My_Resume-Bilal_Edoor.pdf'
 import sunIcon from '../assets/sun.png'
 import moonIcon from '../assets/moon.png'
 
@@ -107,13 +106,7 @@ export function Header() {
           </NavHashLink>
         ))}
 
-        <a
-          href={Resume}
-          onClick={closeMenu}
-          className="bg-gradient-to-r from-pink-500 to-purple-500 text-white text-base font-semibold uppercase tracking-wide px-6 py-2 rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
-        >
-          Resume
-        </a>
+       
       </nav>
 
       {/* زر القائمة الجانبية (موبايل) */}
