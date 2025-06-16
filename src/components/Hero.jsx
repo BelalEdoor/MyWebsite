@@ -42,7 +42,7 @@ export function Hero() {
         <a
           href={Resume}
           onClick={closeMenu}
-          className="mt-20 inline-block px-8 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-purple-500 to-pink-500 shadow-md hover:from-purple-600 hover:to-pink-600 transition duration-300"
+          className="mt--10 inline-block px-8 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-purple-500 to-pink-500 shadow-md hover:from-purple-600 hover:to-pink-600 transition duration-300"
         >
           Resume
         </a>
@@ -52,7 +52,7 @@ export function Hero() {
          <NavHashLink
   smooth
   to="#contact"
-  className="mt-20 inline-block px-8 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-purple-500 to-pink-500 shadow-md hover:from-purple-600 hover:to-pink-600 transition duration-300"
+  className="mt-10 inline-block px-8 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-purple-500 to-pink-500 shadow-md hover:from-purple-600 hover:to-pink-600 transition duration-300"
 >
   Contact With Me
 </NavHashLink>
