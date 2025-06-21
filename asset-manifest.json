@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3aea62ac.css",
-    "main.js": "/portfolio/static/js/main.8c3652a4.js",
+    "main.js": "/portfolio/static/js/main.67aced84.js",
     "static/media/main.png": "/portfolio/static/media/main.bd04c3b15e5307f0d447.png",
-    "static/media/My_Resume-Bilal_Edoor.pdf": "/portfolio/static/media/My_Resume-Bilal_Edoor.0eb6d767f4c0b78cbc8f.pdf",
+    "static/media/My_Resume-Bilal_Edoor.pdf": "/portfolio/static/media/My_Resume-Bilal_Edoor.3c8052038648c0bb9dc6.pdf",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.6f3b6df96f0390a329e8.png",
     "static/media/belaledoor1.jpg": "/portfolio/static/media/belaledoor1.d3491ec75da4e8060c1b.jpg",
     "static/media/address-book.jpg": "/portfolio/static/media/address-book.c665a8db1ef7d323dc71.jpg",
     "static/media/smart-driving.jpg": "/portfolio/static/media/smart-driving.4798d26e9b883f0c2a91.jpg",
+    "static/media/download1.jpeg": "/portfolio/static/media/download1.0acf245c8fc19dcaf1e2.jpeg",
     "static/media/capstone-travel.jpg": "/portfolio/static/media/capstone-travel.1a5d845f359d11c7e84a.jpg",
     "static/media/sass-icon.svg": "/portfolio/static/media/sass-icon.3572f53ec4f404e921a9e8193cdb70fe.svg",
     "static/media/whatsapp.svg": "/portfolio/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
@@ -26,10 +27,10 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/portfolio/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.3aea62ac.css.map": "/portfolio/static/css/main.3aea62ac.css.map",
-    "main.8c3652a4.js.map": "/portfolio/static/js/main.8c3652a4.js.map"
+    "main.67aced84.js.map": "/portfolio/static/js/main.67aced84.js.map"
   },
   "entrypoints": [
     "static/css/main.3aea62ac.css",
-    "static/js/main.8c3652a4.js"
+    "static/js/main.67aced84.js"
   ]
 }
