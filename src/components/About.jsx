@@ -1,4 +1,4 @@
-import belaledoor from "../assets/belaledoor1.png";
+import belaledoor from "../assets/belaledoor1.jpg";
 import python from "../assets/python.svg";
 import java from "../assets/java.svg";
 import htmlIcon from "../assets/html-icon.svg";
@@ -91,12 +91,13 @@ export function About() {
 
       <div className="about-image text-center mt-8 md:mt-0">
         <ScrollAnimation animateIn="fadeInRight" delay={210}>
-          <img
-            src={belaledoor}
-            alt="Belal Edoor"
-            className=" w-full max-w-[600px] aspect-square  object-cover  border-gradient-to-r  p-1"
-            style={{ transform: 'translateY(60px)' }}
-          />
+        <img
+  src={belaledoor}
+  alt="Belal Edoor"
+  className="w-full max-w-[500px] aspect-square object-cover rounded-full border border-gray-300 shadow-md p-1"
+  style={{ transform: 'translateY(60px)' }}
+/>
+
         </ScrollAnimation>
       </div>
     </section>
