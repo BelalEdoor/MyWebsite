@@ -47,26 +47,36 @@ export function Header() {
   }, [activeSection])
 
   return (
-    <header className="fixed top-0 left-0 w-full z-[1000] flex items-center justify-between px-6 py-4 bg-[#21212180] backdrop-blur-lg shadow-md">
-      {/* Logo */}
-      <div className="flex-shrink-0">
-        <HashLink
-          smooth
-          to="#home"
-          className="text-white text-3xl font-extrabold tracking-wide flex gap-1"
-        >
-          <span>{"<Belal "}</span>
-          <span className="text-gradient bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
-            {"Edoor/>"}
-          </span>
-        </HashLink>
+    <header className="fixed top-0 left-0 w-full z-[1000] flex justify-between items-center px-16 py-6 bg-[#21212180] backdrop-blur-lg shadow-md">
+      <HashLink
+        smooth
+        to="#home"
+        className="text-white text-4xl font-extrabold tracking-wide flex gap-1"
+      >
+        <span>{"<Belal "}</span>
+        <span className="text-gradient bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+          {"Edoor/>"}
+        </span>
+      </HashLink>
+
+      <div
+        onClick={toggleTheme}
+        className="group flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-5 py-2 rounded-full cursor-pointer shadow-md hover:scale-105 transition-all duration-300 ml-auto mr-4"
+      >
+        <span className="text-base font-semibold group-hover:tracking-wide transition-all duration-300">
+          {isDark ? 'Light' : 'Dark'}
+        </span>
+        <img
+          src={isDark ? sunIcon : moonIcon}
+          alt="Theme Icon"
+          className="w-[22px] transition-transform duration-300 group-hover:rotate-12"
+        />
       </div>
 
-      {/* Navigation centered */}
       <nav
         className={`${
           menuOpen ? 'flex' : 'hidden'
-        } md:flex flex-col md:flex-row items-center gap-7 absolute md:static top-[100%] left-1/2 md:left-0 transform md:transform-none -translate-x-1/2 md:translate-x-0 w-full md:w-auto bg-[#212121] md:bg-transparent px-8 md:px-0 py-6 md:py-0 shadow-lg md:shadow-none z-40`}
+        } md:flex flex-col md:flex-row items-center gap-7 absolute md:static top-[100%] left-0 w-full md:w-auto bg-[#212121] md:bg-transparent px-8 md:px-0 py-6 md:py-0 shadow-lg md:shadow-none z-40`}
       >
         {[
           { to: '#home', label: 'Home' },
@@ -95,34 +105,17 @@ export function Header() {
         ))}
       </nav>
 
-      {/* Theme toggle & menu button on right */}
-      <div className="flex items-center gap-4">
-        <div
-          onClick={toggleTheme}
-          className="group flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-5 py-2 rounded-full cursor-pointer shadow-md hover:scale-105 transition-all duration-300"
-        >
-          <span className="text-base font-semibold group-hover:tracking-wide transition-all duration-300">
-            {isDark ? 'Light' : 'Dark'}
-          </span>
-          <img
-            src={isDark ? sunIcon : moonIcon}
-            alt="Theme Icon"
-            className="w-[22px] transition-transform duration-300 group-hover:rotate-12"
-          />
-        </div>
-
-        <div
-          aria-expanded={menuOpen ? 'true' : 'false'}
-          aria-haspopup="true"
-          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
-          className={`menu relative w-8 h-[2px] bg-white cursor-pointer md:hidden ${
-            menuOpen
-              ? 'bg-transparent before:rotate-45 before:bottom-0 after:rotate-[135deg] after:top-0'
-              : ''
-          } before:absolute before:w-full before:h-[2px] before:bg-white before:transition-all before:duration-300 before:bottom-[0.5rem] after:absolute after:w-full after:h-[2px] after:bg-white after:transition-all after:duration-300 after:top-[0.5rem]`}
-          onClick={() => setMenuOpen(!menuOpen)}
-        ></div>
-      </div>
+      <div
+        aria-expanded={menuOpen ? 'true' : 'false'}
+        aria-haspopup="true"
+        aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+        className={`menu relative w-8 h-[2px] bg-white cursor-pointer md:hidden ${
+          menuOpen
+            ? 'bg-transparent before:rotate-45 before:bottom-0 after:rotate-[135deg] after:top-0'
+            : ''
+        } before:absolute before:w-full before:h-[2px] before:bg-white before:transition-all before:duration-300 before:bottom-[0.5rem] after:absolute after:w-full after:h-[2px] after:bg-white after:transition-all after:duration-300 after:top-[0.5rem]`}
+        onClick={() => setMenuOpen(!menuOpen)}
+      ></div>
     </header>
   )
 }
