@@ -13,8 +13,8 @@ export function Project() {
       title: "Address Book",
       description:
         "This project was designed using object-oriented programming with Java, where all the basic concepts were applied in this project, such as interface, anteriority, polymorphism, and the project was worked using the GUI.",
-      github: "https://github.com/BilalEdoor/Address-Book.git",
-      external: "https://github.com/BilalEdoor/Address-Book.git",
+      github: "https://github.com/belal3door/Address-book.git",
+      external: "https://github.com/belal3door/Address-book.git",
       technologies: ["JAVA", "OOP"],
       ImgCard: imgAddressBook,
     },
@@ -22,8 +22,8 @@ export function Project() {
       title: "Smart Driving",
       description:
         "The project involves controlling the car via the Internet The ESP32 was used as a microcontroller, joystick, and the Arduino Cloud site to connect the board, the controller, and the car board.",
-      github: "https://github.com/BilalEdoor/smart-driving-.git",
-      external: "https://github.com/BilalEdoor/smart-driving-.git",
+      github: "",
+      external: "",
       technologies: ["C++", "Arduino cloud", "Esp32 microcontroller"],
       ImgCard: imgSmartDriving,
     },
@@ -31,8 +31,8 @@ export function Project() {
       title: "E-commerce store",
       description:
         "An online store built with React that displays categorized products, supports search and filtering, and allows users to add products to their cart or favorites. It offers a responsive and easy-to-use user interface, with real-time interactions . ",
-      github: "https://github.com/BilalEdoor/project---react-js-training-.git",
-      external: "https://github.com/BilalEdoor/project---react-js-training-.git",
+      github: "https://github.com/belal3door/E-commerce-store.git",
+      external: "https://github.com/belal3door/E-commerce-store.git",
       technologies: ["React Js", "Tailwind css" , "react-reouter-dom"],
       ImgCard: imgBilalStore,
       
@@ -43,8 +43,8 @@ export function Project() {
       title: "Capstone travel app",
       description:
         "A frontend capstone project that builds a travel app, integrating APIs to fetch weather, location, and trip details for a dynamic user experience.",
-      github: "https://github.com/BilalEdoor/FEND-Capstone-travel-app.git",
-      external: "https://github.com/BilalEdoor/FEND-Capstone-travel-app.git",
+      github: "https://github.com/belal3door/Capstone-travel-app.git",
+      external: "https://github.com/belal3door/Capstone-travel-app.git",
       technologies: ["Node js", "HTML", "CSS", "Javascript"],
       ImgCard: imgCapstoneTravel,
     },
@@ -52,8 +52,8 @@ export function Project() {
       title: "Scientific Research Library",
       description:
         "The Scientific Research Library is a digital platform committed to advancing knowledge by providing easy access to high-quality scientific publications, research papers, and educational resources.",
-      github: "https://github.com/BilalEdoor/weather-journal-app.git",
-      external: "https://github.com/BilalEdoor/weather-journal-app.git",
+      github: "https://github.com/belal3door/Scientific-Research-Library.git",
+      external: "https://github.com/belal3door/Scientific-Research-Library.git",
       technologies: ["React Js", "Tailwind css" , "react-reouter-dom"],
       ImgCard: imglibrery,
     },
