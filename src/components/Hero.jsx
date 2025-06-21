@@ -1,6 +1,5 @@
 import { NavHashLink } from "react-router-hash-link";
 import ScrollAnimation from "react-animate-on-scroll";
-import { useState } from 'react'
 import main from "../assets/main.png";
 import linkedin from '../assets/linkedin.svg';
 import githubIcon from '../assets/github.svg';
@@ -11,11 +10,8 @@ import Resume from '../assets/My_Resume-Bilal_Edoor.pdf'
  
 
 export function Hero() {
-    const [setActive] = useState(false)
 
-   function closeMenu() {
-    setActive(false)
-  }
+  
   return (
     <section
       id="home"
@@ -41,7 +37,6 @@ export function Hero() {
          <ScrollAnimation animateIn="fadeInDown" delay={200}>
         <a
           href={Resume}
-          onClick={closeMenu}
           className="mt--10 inline-block px-8 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-purple-500 to-pink-500 shadow-md hover:from-purple-600 hover:to-pink-600 transition duration-300"
         >
           Resume

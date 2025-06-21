@@ -1,11 +1,10 @@
 import githubIcon from "../assets/github.svg";
 import externalLink from "../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-// في بداية الملف
 import imgAddressBook from "../assets/address-book.jpg";
 import imgBilalStore from "../assets/bilal-store.jpg";
 import imgSmartDriving from "../assets/smart-driving.jpg";
-import imgWeatherJournal from "../assets/wheather-journal.jpg";
+import imglibrery from "../assets/download1.jpeg";
 import imgCapstoneTravel from "../assets/capstone-travel.jpg";
 
 export function Project() {
@@ -20,16 +19,6 @@ export function Project() {
       ImgCard: imgAddressBook,
     },
     {
-      title: "Bilal Store",
-      description:
-        "This project was designed using react js, and the style was also added to the various pages using the tailwind css library.",
-      github: "https://github.com/BilalEdoor/project---react-js-training-.git",
-      external: "https://github.com/BilalEdoor/project---react-js-training-.git",
-      technologies: ["React Js", "Tailwind css"],
-      ImgCard: imgBilalStore,
-      
-    },
-    {
       title: "Smart Driving",
       description:
         "The project involves controlling the car via the Internet The ESP32 was used as a microcontroller, joystick, and the Arduino Cloud site to connect the board, the controller, and the car board.",
@@ -39,14 +28,17 @@ export function Project() {
       ImgCard: imgSmartDriving,
     },
     {
-      title: "Whether journal app",
+      title: "E-commerce store",
       description:
-        "The Weather Journal app uses Node.js and Express APIs to fetch historical weather data using user input in an interactive interface.",
-      github: "https://github.com/BilalEdoor/weather-journal-app.git",
-      external: "https://github.com/BilalEdoor/weather-journal-app.git",
-      technologies: ["Node js", "HTML", "CSS", "Javascript"],
-      ImgCard: imgWeatherJournal,
+        "An online store built with React that displays categorized products, supports search and filtering, and allows users to add products to their cart or favorites. It offers a responsive and easy-to-use user interface, with real-time interactions . ",
+      github: "https://github.com/BilalEdoor/project---react-js-training-.git",
+      external: "https://github.com/BilalEdoor/project---react-js-training-.git",
+      technologies: ["React Js", "Tailwind css" , "react-reouter-dom"],
+      ImgCard: imgBilalStore,
+      
     },
+    
+   
     {
       title: "Capstone travel app",
       description:
@@ -55,6 +47,15 @@ export function Project() {
       external: "https://github.com/BilalEdoor/FEND-Capstone-travel-app.git",
       technologies: ["Node js", "HTML", "CSS", "Javascript"],
       ImgCard: imgCapstoneTravel,
+    },
+     {
+      title: "Scientific Research Library",
+      description:
+        "The Scientific Research Library is a digital platform committed to advancing knowledge by providing easy access to high-quality scientific publications, research papers, and educational resources.",
+      github: "https://github.com/BilalEdoor/weather-journal-app.git",
+      external: "https://github.com/BilalEdoor/weather-journal-app.git",
+      technologies: ["React Js", "Tailwind css" , "react-reouter-dom"],
+      ImgCard: imglibrery,
     },
     
   ];
