@@ -2,7 +2,7 @@
   "name": "belaledoor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://belal3door.github.io/portfolio",
+"homepage": "https://belaledoor.github.io/MyWebsite",
   "dependencies": {
     "@formspree/react": "^3.0.0",
     "@material-tailwind/react": "^2.1.10",
