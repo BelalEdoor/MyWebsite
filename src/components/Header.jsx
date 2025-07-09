@@ -59,6 +59,7 @@ export function Header() {
         </span>
       </HashLink>
 
+      {/* زر تغيير الثيم */}
       <div
         onClick={toggleTheme}
         className="group flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-5 py-2 rounded-full cursor-pointer shadow-md hover:scale-105 transition-all duration-300 ml-auto mr-4"
@@ -73,10 +74,13 @@ export function Header() {
         />
       </div>
 
+      {/* قائمة التنقل */}
       <nav
         className={`${
           menuOpen ? 'flex' : 'hidden'
-        } md:flex flex-col md:flex-row items-center gap-7 absolute md:static top-[100%] left-0 w-full md:w-auto bg-[#212121] md:bg-transparent px-8 md:px-0 py-6 md:py-0 shadow-lg md:shadow-none z-40`}
+        } md:flex flex-col md:flex-row items-center gap-7 absolute md:static top-[100%] left-0 w-full md:w-auto 
+        ${isDark ? 'bg-[#212121]' : 'bg-white'} 
+        md:bg-transparent px-8 md:px-0 py-6 md:py-0 shadow-lg md:shadow-none z-40`}
       >
         {[
           { to: '#home', label: 'Home' },
@@ -91,20 +95,24 @@ export function Header() {
             onClick={closeMenu}
             className="relative px-3 py-2 transition-all duration-300 group"
           >
-            <span
-              className={`font-bold uppercase tracking-wide relative z-10 ${
-                activeSection === to.substring(1)
-                  ? 'text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500'
-                  : 'text-white'
-              }`}
-            >
-              {label}
-            </span>
+        <span
+  className={`font-bold uppercase tracking-wide relative z-10 px-2 py-1 rounded-md ${
+    activeSection === to.substring(1)
+      ? 'text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500'
+      : isDark
+      ? 'bg-white text-black'
+      : 'bg-black text-white'
+  }`}
+>
+  {label}
+</span>
+
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full" />
           </NavHashLink>
         ))}
       </nav>
 
+      {/* زر البرجر للموبايل */}
       <div
         aria-expanded={menuOpen ? 'true' : 'false'}
         aria-haspopup="true"
