@@ -8,6 +8,7 @@ import reactIcon from "../assets/react-icon.svg";
 import tailwind from "../assets/tailwind.png";
 import  Cplus from "../assets/c.svg"
 import ROS from "../assets/Robot Operating System (ROS).svg"
+import Firebase from "../assets/firebase.svg"
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -73,7 +74,7 @@ export function About() {
         </ScrollAnimation>
 
         <div className="hard-skills mt-6 flex items-center flex-wrap gap-[1.8rem]">
-          {[Cplus, java , python, htmlIcon, cssIcon, jsIcon ,reactIcon, tailwind, ROS].map(
+          {[Cplus, java, python, htmlIcon, cssIcon, jsIcon, reactIcon, tailwind, Firebase, ROS].map(
             (icon, i) => (
               <div
                 className="hability flex flex-col items-center"
