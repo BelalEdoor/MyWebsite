@@ -7,13 +7,13 @@ import instagramIcon from '../assets/instagram.svg';
 export function Footer() {
   return (
     <footer
-      className="bg-[#2b2b2b] px-[15rem] py-12 mt-40 flex items-center justify-between flex-wrap md:flex-nowrap md:text-left text-center gap-8 md:gap-0
+      className="bg-[#212134] px-[15rem] py-12 mt-40 flex items-center justify-between flex-wrap md:flex-nowrap md:text-left text-center gap-8 md:gap-0
                  max-[800px]:flex-col max-[800px]:px-[10rem] max-[600px]:px-4"
     >
      
       <div>
         <p className="tracking-[0.2rem] flex items-center gap-2 text-from-pink-500 to-purple-500 text-[1.8rem] max-[600px]:text-[1.2rem]">
-          Eng Belal Edoor
+          Eng-Belal Edoor
         </p>
       </div>
 
@@ -25,7 +25,7 @@ export function Footer() {
         >
           <img src={linkedin} alt="Linkedin" className="w-12 text-[3rem]" />
         </a>
-        <a href="https://github.com/BilalEdoor" target="_blank" rel="noreferrer">
+        <a href="https://github.com/BelalEdoor" target="_blank" rel="noreferrer">
           <img src={githubIcon} alt="GitHub" className="w-12 text-[3rem]" />
         </a>
         <a href="https://wa.me/+970568033525" target="_blank" rel="noreferrer">
