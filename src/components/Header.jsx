@@ -54,9 +54,10 @@ export function Header() {
         to="#home"
         className="text-white text-2xl md:text-4xl font-extrabold tracking-wide flex gap-1"
       >
-        <span>{"<Belal "}</span>
-        <span className="text-gradient bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
-          {"Edoor/>"}
+        <span>{"<Eng-Belal "}</span>
+        <span         className="text-white text-2xl md:text-4xl font-extrabold tracking-wide flex gap-1"
+>          <p>  </p>
+          {" Edoor/>"}
         </span>
       </HashLink>
 

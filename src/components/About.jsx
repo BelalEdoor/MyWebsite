@@ -51,18 +51,18 @@ export function About() {
             <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-[2.4rem] font-semibold">
               Training courses:
             </h2>
-            <h4 className="text-[1.4rem] font-medium text-white">Front End Developer</h4>
-            <p className="text-[1.3rem] font-medium tracking-wide text-white">
-              Udacity Platform | October 2024 - March 2025 | Remotly
-            </p>
-            <h4 className="text-[1.4rem] font-medium text-white">React JS</h4>
+            <h4 className="text-[1.4rem] font-medium text-white">React.JS</h4>
             <p className="text-[1.3rem] font-medium tracking-wide text-white">
               Code Academy |Palestine Polytechnic University | March 2024 - June
-              2024 | Onsite
+              2024 | internship
+            </p>
+            <h4 className="text-[1.4rem] font-medium text-white">Front End Developer</h4>
+            <p className="text-[1.3rem] font-medium tracking-wide text-white">
+              Udacity Platform | October 2024 - March 2025 | internship
             </p>
             <h4 className="text-[1.4rem] font-medium text-white">NLP & LLM Training</h4>
             <p className="text-[1.3rem] font-medium tracking-wide text-white">
-              Gaza Sky Geeks | June 2025 - present | Remotly
+              Gaza Sky Geeks | June 2025 - present | internship
             </p>
           </div>
         </ScrollAnimation>
