@@ -6,7 +6,7 @@ import imgBilalStore from "../assets/bilal-store.jpg";
 import imgSmartDriving from "../assets/smart-driving.jpg";
 import imglibrery from "../assets/download1.jpeg";
 import imgCapstoneTravel from "../assets/capstone-travel.jpg";
-
+import imgdentalhub from "../assets/Dentalhub.png"
 export function Project() {
   const projects = [
     {
@@ -57,7 +57,15 @@ export function Project() {
       technologies: ["React Js", "Tailwind css" , "react-reouter-dom"],
       ImgCard: imglibrery,
     },
-    
+    {
+      title: "DentalHub Platform",
+      description:
+        "DentalHub Platform is a digital system for managing dental clinics, offering tools for appointments, patient records, and communication. It enhances workflow efficiency and improves patient experience.",
+      github: "https://github.com/BelalEdoor/DentalHub-Platform.git",
+      external: "https://github.com/BelalEdoor/DentalHub-Platform.git",
+      technologies: ["React Js", "API Context"],
+      ImgCard: imgdentalhub,
+    },
   ];
 
   return (
