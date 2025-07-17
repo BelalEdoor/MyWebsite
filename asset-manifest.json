@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.0b1b98a9.css",
-    "main.js": "/MyWebsite/static/js/main.5dafc1cd.js",
+    "main.css": "/MyWebsite/static/css/main.5805df1c.css",
+    "main.js": "/MyWebsite/static/js/main.7846c834.js",
     "static/media/main.png": "/MyWebsite/static/media/main.bd04c3b15e5307f0d447.png",
     "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.01debfbd264b0f03a5d9.pdf",
     "static/media/Dentalhub.png": "/MyWebsite/static/media/Dentalhub.d9dcc88bf848358d4539.png",
-    "static/media/tailwind.png": "/MyWebsite/static/media/tailwind.6f3b6df96f0390a329e8.png",
     "static/media/belaledoor1.jpg": "/MyWebsite/static/media/belaledoor1.d3491ec75da4e8060c1b.jpg",
     "static/media/address-book.jpg": "/MyWebsite/static/media/address-book.c665a8db1ef7d323dc71.jpg",
     "static/media/smart-driving.jpg": "/MyWebsite/static/media/smart-driving.4798d26e9b883f0c2a91.jpg",
     "static/media/download1.jpeg": "/MyWebsite/static/media/download1.0acf245c8fc19dcaf1e2.jpeg",
     "static/media/capstone-travel.jpg": "/MyWebsite/static/media/capstone-travel.1a5d845f359d11c7e84a.jpg",
     "static/media/firebase.svg": "/MyWebsite/static/media/firebase.771a6d763a49e1db16adb76cf9b4caf5.svg",
+    "static/media/Ros_logo.svg": "/MyWebsite/static/media/Ros_logo.9241d81c8145c6c947291e379149bd78.svg",
     "static/media/whatsapp.svg": "/MyWebsite/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
     "static/media/java.svg": "/MyWebsite/static/media/java.ea37baa6a1d1a1d45345798657d7d092.svg",
     "static/media/react-icon.svg": "/MyWebsite/static/media/react-icon.a010f287ea79ad0673b610a223faa951.svg",
@@ -20,20 +20,17 @@
     "static/media/telegram.svg": "/MyWebsite/static/media/telegram.45bf2371ee6528cc27d66c08f8e43356.svg",
     "index.html": "/MyWebsite/index.html",
     "static/media/instagram.svg": "/MyWebsite/static/media/instagram.e9d6b5424508db6397a027a4e0fe0dd0.svg",
-    "static/media/Robot Operating System (ROS).svg": "/MyWebsite/static/media/Robot Operating System (ROS).3c3c5112cda8ca118182067803f23c12.svg",
     "static/media/phone-icon.svg": "/MyWebsite/static/media/phone-icon.fc7195139d684fa2f6bb03b8b9816095.svg",
     "static/media/github.svg": "/MyWebsite/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
     "static/media/email-icon.svg": "/MyWebsite/static/media/email-icon.a5dd245e834641e729e77e40309039c4.svg",
     "static/media/external-link.svg": "/MyWebsite/static/media/external-link.8ce0d189635b118259ec51d8c9b4a1d0.svg",
-    "static/media/html-icon.svg": "/MyWebsite/static/media/html-icon.185baee7db74b83bf22eec6a6def7644.svg",
-    "static/media/css-icon.svg": "/MyWebsite/static/media/css-icon.212d777ae2db63edb235490d487dc292.svg",
     "static/media/linkedin.svg": "/MyWebsite/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/MyWebsite/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
-    "main.0b1b98a9.css.map": "/MyWebsite/static/css/main.0b1b98a9.css.map",
-    "main.5dafc1cd.js.map": "/MyWebsite/static/js/main.5dafc1cd.js.map"
+    "main.5805df1c.css.map": "/MyWebsite/static/css/main.5805df1c.css.map",
+    "main.7846c834.js.map": "/MyWebsite/static/js/main.7846c834.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b1b98a9.css",
-    "static/js/main.5dafc1cd.js"
+    "static/css/main.5805df1c.css",
+    "static/js/main.7846c834.js"
   ]
 }
