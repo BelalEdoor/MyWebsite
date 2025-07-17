@@ -28,7 +28,7 @@ export function Hero() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={400}>
 <h2 className="my-4 text-[2rem] bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent font-semibold">
-  Software Engineer
+  Computer Engineer
 </h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={600}>

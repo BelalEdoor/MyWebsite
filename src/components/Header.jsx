@@ -9,9 +9,29 @@ export function Header() {
   const [activeSection, setActiveSection] = useState('home')
 
   function toggleTheme() {
-    document.documentElement.classList.toggle('light')
-    setIsDark(!isDark)
+    const html = document.documentElement
+    const isCurrentlyDark = html.classList.contains('dark')
+    if (isCurrentlyDark) {
+      html.classList.remove('dark')
+      localStorage.setItem('theme', 'light')
+    } else {
+      html.classList.add('dark')
+      localStorage.setItem('theme', 'dark')
+    }
+    setIsDark(!isCurrentlyDark)
   }
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme')
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+      document.documentElement.classList.add('dark')
+      setIsDark(true)
+    } else {
+      document.documentElement.classList.remove('dark')
+      setIsDark(false)
+    }
+  }, [])
 
   function closeMenu() {
     setMenuOpen(false)
@@ -19,7 +39,7 @@ export function Header() {
 
   useEffect(() => {
     function onScroll() {
-      const sections = ['home', 'about', 'project', 'contact']
+      const sections = ['home', 'about', 'training', 'project', 'contact']
       const scrollPos = window.scrollY + window.innerHeight / 2
 
       for (const section of sections) {
@@ -40,12 +60,6 @@ export function Header() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  useEffect(() => {
-    if (activeSection) {
-      window.history.replaceState(null, '', `#${activeSection}`)
-    }
-  }, [activeSection])
-
   return (
     <header className="fixed top-0 left-0 w-full z-[1000] flex justify-between items-center px-6 md:px-16 py-4 bg-[#21212180] backdrop-blur-lg shadow-md">
       {/* Logo */}
@@ -55,8 +69,7 @@ export function Header() {
         className="text-white text-2xl md:text-4xl font-extrabold tracking-wide flex gap-1"
       >
         <span>{"<Eng-Belal "}</span>
-        <span         className="text-white text-2xl md:text-4xl font-extrabold tracking-wide flex gap-1"
->          <p>  </p>
+        <span className="text-white text-2xl md:text-4xl font-extrabold tracking-wide flex gap-1">
           {" Edoor/>"}
         </span>
       </HashLink>
@@ -77,18 +90,16 @@ export function Header() {
       </div>
 
       {/* Nav links */}
-   <nav
-      className={`${
-        menuOpen ? 'flex bg-[#21213480] bg-blur-4xl text-white' : 'hidden'
-      } md:flex flex-col md:flex-row items-center gap-7 absolute md:static top-[100%] left-0 w-full md:w-auto 
-      md:bg-transparent md:text-inherit px-8 md:px-0 py-6 md:py-0 shadow-lg md:shadow-none z-40 transition-all duration-300`}
-    >
-
-
-
-        {[  
+      <nav
+        className={`${
+          menuOpen ? 'flex bg-[#21213480] bg-blur-4xl text-white' : 'hidden'
+        } md:flex flex-col md:flex-row items-center gap-7 absolute md:static top-[100%] left-0 w-full md:w-auto 
+        md:bg-transparent md:text-inherit px-8 md:px-0 py-6 md:py-0 shadow-lg md:shadow-none z-40 transition-all duration-300`}
+      >
+        {[
           { to: '#home', label: 'Home' },
           { to: '#about', label: 'About me' },
+          { to: '#training', label: 'Internships' },
           { to: '#project', label: 'Projects' },
           { to: '#contact', label: 'Contact' },
         ].map(({ to, label }) => (
@@ -96,6 +107,11 @@ export function Header() {
             key={label}
             smooth
             to={to}
+            scroll={(el) => {
+              const yOffset = -100 // مقدار تعويض ارتفاع النافبار
+              const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset
+              window.scrollTo({ top: y, behavior: 'smooth' })
+            }}
             onClick={closeMenu}
             className="relative px-3 py-2 transition-all duration-300 group"
           >
@@ -104,8 +120,8 @@ export function Header() {
                 activeSection === to.substring(1)
                   ? 'text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500'
                   : isDark
-                  ? 'text-black'
-                  : 'text-white'
+                  ? 'text-white'
+                  : 'text-black'
               }`}
             >
               {label}

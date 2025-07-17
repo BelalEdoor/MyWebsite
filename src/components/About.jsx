@@ -1,33 +1,35 @@
 import belaledoor from "../assets/belaledoor1.jpg";
 import python from "../assets/python.svg";
 import java from "../assets/java.svg";
-import htmlIcon from "../assets/html-icon.svg";
-import cssIcon from "../assets/css-icon.svg";
 import jsIcon from "../assets/js-icon.svg";
 import reactIcon from "../assets/react-icon.svg";
-import tailwind from "../assets/tailwind.png";
-import  Cplus from "../assets/c.svg"
-import ROS from "../assets/Robot Operating System (ROS).svg"
-import Firebase from "../assets/firebase.svg"
+import Cplus from "../assets/c.svg";
+import ROS from "../assets/Ros_logo.svg";
+import Firebase from "../assets/firebase.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import ASP from "../assets/asp.jpeg"
 
 export function About() {
   return (
     <section
-      id="about"
-      className="mt-48 grid grid-cols-1 md:grid-cols-2 gap-8 px-4"
-    >
+  id="about"
+  className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 text-gray-900 dark:text-white mt-40"
+>
+
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h1 className="inline-block mb-8 text-[2.5rem] mt-0 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent font-semibold">
+          <h1 className="inline-block mb8 text-[2.5rem] mt-0 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent font-semibold">
             About me
           </h1>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={100}>
-          <p className="text-[1.4rem] font-medium tracking-wide text-white">
-            Hi there! I'm Belal Edoor, a Software Engineer skilled in web
-            development, and scalable software solutions
+          <p className="text-[1.4rem] font-medium tracking-wide">
+            Hi there! I am a software engineer specializing in web development and scalable digital solutions.
+            I completed a professional training in front-end user interface development, with a particular focus on React.js, and have practical
+            experience using the following programming languages: Java, HTML, CSS, JavaScript, React, Tailwind CSS, Python, and IoT. Throughout my
+            academic and personal career, I have developed numerous impactful projects that demonstrate my ability to solve complex problems, write clear
+            and efficient code, and deliver high-quality user experiences.
           </p>
         </ScrollAnimation>
 
@@ -36,33 +38,12 @@ export function About() {
             <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-[2.3rem] font-semibold">
               Education:
             </h2>
-            <h3 className="text-[1.8rem] font-medium text-white">
+            <h3 className="text-[1.8rem] font-medium">
               Computer Systems Engineering (CSE)
             </h3>
-            <p className="text-[1.4rem] font-medium tracking-wide text-white">
+            <p className="text-[1.4rem] font-medium tracking-wide">
               Faculty of Information Technology and Computer Engineering,
               Palestine Polytechnic University | September 2020 - Present | 4.0 GPA
-            </p>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
-          <div className="experience">
-            <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-[2.4rem] font-semibold">
-              Training courses:
-            </h2>
-            <h4 className="text-[1.4rem] font-medium text-white">React.JS</h4>
-            <p className="text-[1.3rem] font-medium tracking-wide text-white">
-              Code Academy |Palestine Polytechnic University | March 2024 - June
-              2024 | internship
-            </p>
-            <h4 className="text-[1.4rem] font-medium text-white">Front End Developer</h4>
-            <p className="text-[1.3rem] font-medium tracking-wide text-white">
-              Udacity Platform | October 2024 - March 2025 | internship
-            </p>
-            <h4 className="text-[1.4rem] font-medium text-white">NLP & LLM Training</h4>
-            <p className="text-[1.3rem] font-medium tracking-wide text-white">
-              Gaza Sky Geeks | June 2025 - present | internship
             </p>
           </div>
         </ScrollAnimation>
@@ -74,7 +55,7 @@ export function About() {
         </ScrollAnimation>
 
         <div className="hard-skills mt-6 flex items-center flex-wrap gap-[1.8rem]">
-          {[Cplus, java, python, htmlIcon, cssIcon, jsIcon, reactIcon, tailwind, Firebase, ROS].map(
+          {[Cplus, java, python, jsIcon, reactIcon, ASP, Firebase, ROS].map(
             (icon, i) => (
               <div
                 className="hability flex flex-col items-center"
@@ -94,13 +75,12 @@ export function About() {
 
       <div className="about-image text-center mt-8 md:mt-0">
         <ScrollAnimation animateIn="fadeInRight" delay={210}>
-        <img
-  src={belaledoor}
-  alt="Belal Edoor"
-  className="w-full max-w-[500px] aspect-square object-cover rounded-full border border-gray-300 shadow-md p-1"
-  style={{ transform: 'translateY(60px)' }}
-/>
-
+          <img
+            src={belaledoor}
+            alt="Belal Edoor"
+            className="w-full max-w-[500px] aspect-square object-cover rounded-full border border-gray-300 dark:border-gray-600 shadow-md mb-20 p-1"
+            style={{ transform: 'translateY(0px)' }}
+          />
         </ScrollAnimation>
       </div>
     </section>

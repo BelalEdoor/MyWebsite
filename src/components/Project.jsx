@@ -30,7 +30,7 @@ export function Project() {
     {
       title: "E-commerce store",
       description:
-        "An online store built with React that displays categorized products, supports search and filtering, and allows users to add products to their cart or favorites. It offers a responsive and easy-to-use user interface, with real-time interactions . ",
+        "An online store built with React that displays categorized products.It supports search, filtering, and lets users add items to cart or favorites.The interface is responsive, user-friendly, and enables real-time interactions. ",
       github: "https://github.com/belal3door/E-commerce-store.git",
       external: "https://github.com/belal3door/E-commerce-store.git",
       technologies: ["React Js", "Tailwind css" , "react-reouter-dom"],
@@ -78,47 +78,71 @@ export function Project() {
       <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-5">
         {projects.map((project, index) => (
           <ScrollAnimation animateIn="fadeInUp" key={index}>
-<div className="bg-gray-200 shadow-2xl rounded-2xl overflow-hidden flex flex-col h-[400px] transition duration-300 hover:scale-105 hover:bg-gray-200">
-              <img
-                src={project.ImgCard}
-                alt="project img"
-                className="w-full h-70 object-cover"
-              />
-              <div className="p-6 flex flex-col justify-between h-full">
-                <div>
-                  <div className="flex justify-between items-center mb-4">
-                    <h3 className="text-[1.4rem] font-bold text-gray-800">
-                      {project.title}
-                    </h3>
-                    <div className="flex gap-3">
-                      <a href={project.github} target="_blank" rel="noreferrer">
-                        <img src={githubIcon} alt="GitHub" className="w-6" />
-                      </a>
-                      <a
-                        href={project.external}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src={externalLink} alt="External" className="w-6" />
-                      </a>
-                    </div>
-                  </div>
-                  <p className="text-gray-600 text-[1.2rem] leading-relaxed mb-4">
-                    {project.description}
-                  </p>
-                </div>
-                <ul className="flex flex-wrap gap-2 text-sm text-gray-500">
-                  {project.technologies.map((tech, i) => (
-                    <li key={i} className="bg-gray-100 px-2 py-1 rounded">
-                      {tech}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+<div className="bg-gradient-to-b from-white to-gray-200 dark:from-gray-600 dark:to-gray-700 
+  rounded-2xl shadow-2xl overflow-hidden flex flex-col h-[400px] 
+  transition duration-300 hover:scale-105">
+
+  {/* صورة المشروع */}
+  <div className="overflow-hidden">
+    <img
+      src={project.ImgCard}
+      alt="project img"
+      className="w-full h-200 object-cover transition-transform duration-300 hover:scale-105"
+    />
+  </div>
+
+  {/* المحتوى */}
+  <div className="p-6 flex flex-col justify-between flex-grow gap-5">
+    {/* العنوان والروابط */}
+    <div className="flex items-start justify-between">
+      <h3 className="text-2xl font-extrabold text-gray-800 dark:text-white leading-tight">
+        {project.title}
+      </h3>
+      <div className="flex gap-3 mt-1">
+        {project.github && (
+          <a href={project.github} target="_blank" rel="noreferrer">
+            <img
+              src={githubIcon}
+              alt="GitHub"
+              className="w-6 hover:scale-110 transition-transform"
+            />
+          </a>
+        )}
+        {project.external && (
+          <a href={project.external} target="_blank" rel="noreferrer">
+            <img
+              src={externalLink}
+              alt="External"
+              className="w-6 hover:scale-110 transition-transform"
+            />
+          </a>
+        )}
+      </div>
+    </div>
+
+    {/* الوصف */}
+    <p className="text-gray-600 dark:text-gray-300 text-xl   leading-relaxed">
+      {project.description}
+    </p>
+
+    {/* التقنيات */}
+    <ul className="flex flex-wrap gap-2 mt-2">
+      {project.technologies.map((tech, i) => (
+        <li
+          key={i}
+          className="bg-purple-100 dark:bg-purple-800/40 text-purple-800 dark:text-purple-100 px-3 py-1 rounded-full text-xs font-medium tracking-wide shadow-sm"
+        >
+          {tech}
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>
+
+
           </ScrollAnimation>
         ))}
       </div>
     </section>
   );
-}
+} 

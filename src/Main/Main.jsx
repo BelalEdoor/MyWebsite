@@ -4,6 +4,7 @@ import { Hero } from "../components/Hero";
 import { About } from "../components/About";
 import { Contact } from "../components/Contact";
 import { Project } from "../components/Project";
+import TrainingSection from "../components/TrainingSection";
 
 export function Main() {
 
@@ -16,6 +17,7 @@ export function Main() {
       />
       <Hero />
       <About />
+      <TrainingSection/>
       <Project />
       <Contact />
     </main>
