@@ -75,7 +75,7 @@ export function Hero() {
         </ScrollAnimation>
       </div>
 
-      <div className="hero-image max-md:hidden" style={{ transform: 'translateY(-160px)' }}>
+      <div className="hero-image max-md:hidden" style={{ transform: 'translateY(-100px)' }}>
         <ScrollAnimation animateIn="fadeInRight" delay={1000}>
           <img src={main} alt="Ilustração" className="max-w-[600px]" />
         </ScrollAnimation>
