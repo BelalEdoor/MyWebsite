@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.5805df1c.css",
-    "main.js": "/MyWebsite/static/js/main.4fad6fd0.js",
+    "main.css": "/MyWebsite/static/css/main.b2b0949e.css",
+    "main.js": "/MyWebsite/static/js/main.b7e8131e.js",
     "static/media/main.png": "/MyWebsite/static/media/main.bd04c3b15e5307f0d447.png",
     "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.fe7f5a49777a93011e5b.pdf",
     "static/media/Dentalhub.png": "/MyWebsite/static/media/Dentalhub.d9dcc88bf848358d4539.png",
+    "static/media/firebase-cert.jpg": "/MyWebsite/static/media/firebase-cert.1dd661c74d45fe6ceb58.jpg",
+    "static/media/web-dev-cert.jpeg": "/MyWebsite/static/media/web-dev-cert.0521cc697449dae9f595.jpeg",
     "static/media/belaledoor1.jpg": "/MyWebsite/static/media/belaledoor1.d3491ec75da4e8060c1b.jpg",
     "static/media/address-book.jpg": "/MyWebsite/static/media/address-book.c665a8db1ef7d323dc71.jpg",
     "static/media/smart-driving.jpg": "/MyWebsite/static/media/smart-driving.4798d26e9b883f0c2a91.jpg",
@@ -26,11 +28,11 @@
     "static/media/external-link.svg": "/MyWebsite/static/media/external-link.8ce0d189635b118259ec51d8c9b4a1d0.svg",
     "static/media/linkedin.svg": "/MyWebsite/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/MyWebsite/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
-    "main.5805df1c.css.map": "/MyWebsite/static/css/main.5805df1c.css.map",
-    "main.4fad6fd0.js.map": "/MyWebsite/static/js/main.4fad6fd0.js.map"
+    "main.b2b0949e.css.map": "/MyWebsite/static/css/main.b2b0949e.css.map",
+    "main.b7e8131e.js.map": "/MyWebsite/static/js/main.b7e8131e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5805df1c.css",
-    "static/js/main.4fad6fd0.js"
+    "static/css/main.b2b0949e.css",
+    "static/js/main.b7e8131e.js"
   ]
 }
