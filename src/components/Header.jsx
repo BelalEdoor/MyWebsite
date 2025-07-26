@@ -92,8 +92,11 @@ export function Header() {
       {/* Nav links */}
       <nav
         className={`${
-          menuOpen ? 'flex bg-[#21213480] bg-blur-4xl text-white' : 'hidden'
-        } md:flex flex-col md:flex-row items-center gap-7 absolute md:static top-[100%] left-0 w-full md:w-auto 
+menuOpen
+  ? 'flex  bg-white dark:bg-gray-800 text-gray-900 dark:text-white'
+  : 'hidden'
+  
+      } md:flex flex-col md:flex-row items-center gap-7 absolute md:static top-[100%] left-0 w-full md:w-auto 
         md:bg-transparent md:text-inherit px-8 md:px-0 py-6 md:py-0 shadow-lg md:shadow-none z-40 transition-all duration-300`}
       >
         {[
@@ -103,14 +106,13 @@ export function Header() {
           { to: '#Certificates', label: 'Certificates' },
           { to: '#project', label: 'Projects' },
           { to: '#contact', label: 'Contact' },
-          
         ].map(({ to, label }) => (
           <NavHashLink
             key={label}
             smooth
             to={to}
             scroll={(el) => {
-              const yOffset = -100 // مقدار تعويض ارتفاع النافبار
+              const yOffset = -100
               const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset
               window.scrollTo({ top: y, behavior: 'smooth' })
             }}
@@ -135,30 +137,32 @@ export function Header() {
 
       {/* Burger button */}
       <button
-        onClick={() => setMenuOpen(!menuOpen)}
-        className="bg-transparent p-0 m-0  relative w-10 h-10 flex flex-col items-center justify-center gap-[6px] z-50 
-               group transition-all duration-300 md:hidden"
-        aria-label={menuOpen ? 'Close menu' : 'Open menu'}
-      >
-        <span
-          className={`block h-[3px] w-8 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 
-            transition-transform duration-300 origin-center ${
-              menuOpen ? 'rotate-45 translate-y-[6px]' : ''
-            }`}
-        />
-        <span
-          className={`block h-[3px] w-8 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 
-            transition-opacity duration-300 ${
-              menuOpen ? 'opacity-0' : 'opacity-100'
-            }`}
-        />
-        <span
-          className={`block h-[3px] w-8 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 
-            transition-transform duration-300 origin-center ${
-              menuOpen ? '-rotate-45 -translate-y-[6px]' : ''
-            }`}
-        />
-      </button>
+  onClick={() => setMenuOpen(!menuOpen)}
+  className="ng-gray-1000 relative w-12 h-12 flex flex-col items-center justify-center gap-1.5 
+             rounded-full bg-white/10 backdrop-blur-md border border-white/20 
+             shadow-lg z-50 group transition-all duration-300 md:hidden"
+  aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+>
+  <span
+    className={`block h-[3px] w-8 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 
+                transition-transform duration-300 origin-center ${
+                  menuOpen ? 'rotate-45 translate-y-[9px]' : ''
+                }`}
+  />
+  <span
+    className={`block h-[3px] w-8 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 
+                transition-opacity duration-300 ${
+                  menuOpen ? 'opacity-0' : 'opacity-100'
+                }`}
+  />
+  <span
+    className={`block h-[3px] w-8 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 
+                transition-transform duration-300 origin-center ${
+                  menuOpen ? '-rotate-45 -translate-y-[9px]' : ''
+                }`}
+  />
+</button>
+
     </header>
   )
 }
