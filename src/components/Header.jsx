@@ -39,7 +39,7 @@ export function Header() {
 
   useEffect(() => {
     function onScroll() {
-      const sections = ['home', 'about', 'training', 'project', 'contact']
+      const sections = ['home', 'about', 'training', 'Certificates', 'project', 'contact']
       const scrollPos = window.scrollY + window.innerHeight / 2
 
       for (const section of sections) {
@@ -100,8 +100,10 @@ export function Header() {
           { to: '#home', label: 'Home' },
           { to: '#about', label: 'About me' },
           { to: '#training', label: 'Internships' },
+          { to: '#Certificates', label: 'Certificates' },
           { to: '#project', label: 'Projects' },
           { to: '#contact', label: 'Contact' },
+          
         ].map(({ to, label }) => (
           <NavHashLink
             key={label}

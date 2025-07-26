@@ -1,10 +1,11 @@
 import React from "react";
 import Particles from "react-tsparticles";
-import { Hero } from "../components/Hero";
-import { About } from "../components/About";
-import { Contact } from "../components/Contact";
-import { Project } from "../components/Project";
-import TrainingSection from "../components/TrainingSection";
+import {Hero} from "../components/Hero";
+import {About} from "../components/About";
+import {Contact} from "../components/Contact";
+import {Project} from "../components/Project";
+import {TrainingSection} from "../components/TrainingSection";
+import {Certificates} from "../components/Certificates";
 
 export function Main() {
 
@@ -18,6 +19,7 @@ export function Main() {
       <Hero />
       <About />
       <TrainingSection/>
+      <Certificates/>
       <Project />
       <Contact />
     </main>
