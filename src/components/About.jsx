@@ -43,7 +43,7 @@ export function About() {
             </h3>
             <p className="text-[1.4rem] font-medium tracking-wide">
               Faculty of Information Technology and Computer Engineering,
-              Palestine Polytechnic University | September 2020 - Present | 4.0 GPA
+              Palestine Polytechnic University | September 2020 - Present | 3.3 GPA
             </p>
           </div>
         </ScrollAnimation>
