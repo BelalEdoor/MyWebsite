@@ -35,7 +35,7 @@ export function Footer() {
         <a href="https://github.com/BelalEdoor" target="_blank" rel="noreferrer">
           <img src={githubIcon} alt="GitHub" className="w-12" />
         </a>
-        <a href="https://wa.me/+970568033525" target="_blank" rel="noreferrer">
+        <a href="https://wa.me/972568033525" target="_blank" rel="noreferrer">
           <img src={whatsapp} alt="Whatsapp" className="w-12" />
         </a>
         <a href="https://t.me/Bilal_edoor" target="_blank" rel="noreferrer">
