@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/MyWebsite/static/css/main.4f326467.css",
-    "main.js": "/MyWebsite/static/js/main.36185f67.js",
+    "main.js": "/MyWebsite/static/js/main.64fcbafd.js",
     "static/media/main.png": "/MyWebsite/static/media/main.bd04c3b15e5307f0d447.png",
-    "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.fe7f5a49777a93011e5b.pdf",
+    "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.7cedf8d6a4a5edadbc95.pdf",
     "static/media/Dentalhub.png": "/MyWebsite/static/media/Dentalhub.d9dcc88bf848358d4539.png",
     "static/media/firebase-cert.jpg": "/MyWebsite/static/media/firebase-cert.1dd661c74d45fe6ceb58.jpg",
     "static/media/web-dev-cert.jpeg": "/MyWebsite/static/media/web-dev-cert.0521cc697449dae9f595.jpeg",
@@ -13,7 +13,9 @@
     "static/media/download1.jpeg": "/MyWebsite/static/media/download1.0acf245c8fc19dcaf1e2.jpeg",
     "static/media/capstone-travel.jpg": "/MyWebsite/static/media/capstone-travel.1a5d845f359d11c7e84a.jpg",
     "static/media/firebase.svg": "/MyWebsite/static/media/firebase.771a6d763a49e1db16adb76cf9b4caf5.svg",
+    "static/media/aspnet-svgrepo-com.svg": "/MyWebsite/static/media/aspnet-svgrepo-com.cb6c43d550f4ed351cda9181b7cb7fd8.svg",
     "static/media/Ros_logo.svg": "/MyWebsite/static/media/Ros_logo.9241d81c8145c6c947291e379149bd78.svg",
+    "static/media/Logo_C_sharp.svg": "/MyWebsite/static/media/Logo_C_sharp.e2c0510d2b743a87e7621b703ba07906.svg",
     "static/media/whatsapp.svg": "/MyWebsite/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
     "static/media/java.svg": "/MyWebsite/static/media/java.ea37baa6a1d1a1d45345798657d7d092.svg",
     "static/media/react-icon.svg": "/MyWebsite/static/media/react-icon.a010f287ea79ad0673b610a223faa951.svg",
@@ -29,10 +31,10 @@
     "static/media/linkedin.svg": "/MyWebsite/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/MyWebsite/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.4f326467.css.map": "/MyWebsite/static/css/main.4f326467.css.map",
-    "main.36185f67.js.map": "/MyWebsite/static/js/main.36185f67.js.map"
+    "main.64fcbafd.js.map": "/MyWebsite/static/js/main.64fcbafd.js.map"
   },
   "entrypoints": [
     "static/css/main.4f326467.css",
-    "static/js/main.36185f67.js"
+    "static/js/main.64fcbafd.js"
   ]
 }
