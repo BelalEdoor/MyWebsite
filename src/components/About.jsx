@@ -9,6 +9,7 @@ import Firebase from "../assets/firebase.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import ASP from "../assets/aspnet-svgrepo-com.svg"
 import Csharp from "../assets/Logo_C_sharp.svg"
+import nodejs from  "../assets/nodejs-logo-svgrepo-com.svg"
 
 export function About() {
   return (
@@ -56,7 +57,7 @@ export function About() {
         </ScrollAnimation>
 
         <div className="hard-skills mt-6 flex items-center flex-wrap gap-[1.8rem]">
-          {[Cplus, java, python, Csharp, jsIcon, reactIcon, ASP, Firebase, ROS].map(
+          {[Cplus, java, python, Csharp, jsIcon, reactIcon, Firebase, nodejs, ASP, ROS].map(
             (icon, i) => (
               <div
                 className="hability flex flex-col items-center"
@@ -66,7 +67,7 @@ export function About() {
                   animateIn="fadeInUp"
                   delay={(0.10 + i * 0.01) * 1000}
                 >
-                  <img src={icon} alt="skill-icon" className="w-[3.4rem]" />
+                  <img src={icon} alt="skill-icon" className="w-[5rem]" />
                 </ScrollAnimation>
               </div>
             )
