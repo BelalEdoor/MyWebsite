@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.795ea258.css",
-    "main.js": "/MyWebsite/static/js/main.d7208dbd.js",
+    "main.css": "/MyWebsite/static/css/main.9c94c760.css",
+    "main.js": "/MyWebsite/static/js/main.55e2eb2e.js",
     "static/media/main.png": "/MyWebsite/static/media/main.bd04c3b15e5307f0d447.png",
     "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.1b36dc751da347c562cc.pdf",
     "static/media/Dentalhub.png": "/MyWebsite/static/media/Dentalhub.d9dcc88bf848358d4539.png",
@@ -12,6 +12,7 @@
     "static/media/capstone-travel.jpg": "/MyWebsite/static/media/capstone-travel.1a5d845f359d11c7e84a.jpg",
     "static/media/firebase.svg": "/MyWebsite/static/media/firebase.771a6d763a49e1db16adb76cf9b4caf5.svg",
     "static/media/aspnet-svgrepo-com.svg": "/MyWebsite/static/media/aspnet-svgrepo-com.cb6c43d550f4ed351cda9181b7cb7fd8.svg",
+    "static/media/nodejs-logo-svgrepo-com.svg": "/MyWebsite/static/media/nodejs-logo-svgrepo-com.9b464a9aee62c52faeebf257f69cad74.svg",
     "static/media/Ros_logo.svg": "/MyWebsite/static/media/Ros_logo.9241d81c8145c6c947291e379149bd78.svg",
     "static/media/Logo_C_sharp.svg": "/MyWebsite/static/media/Logo_C_sharp.e2c0510d2b743a87e7621b703ba07906.svg",
     "static/media/whatsapp.svg": "/MyWebsite/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
@@ -28,11 +29,11 @@
     "static/media/external-link.svg": "/MyWebsite/static/media/external-link.8ce0d189635b118259ec51d8c9b4a1d0.svg",
     "static/media/linkedin.svg": "/MyWebsite/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/MyWebsite/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
-    "main.795ea258.css.map": "/MyWebsite/static/css/main.795ea258.css.map",
-    "main.d7208dbd.js.map": "/MyWebsite/static/js/main.d7208dbd.js.map"
+    "main.9c94c760.css.map": "/MyWebsite/static/css/main.9c94c760.css.map",
+    "main.55e2eb2e.js.map": "/MyWebsite/static/js/main.55e2eb2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.795ea258.css",
-    "static/js/main.d7208dbd.js"
+    "static/css/main.9c94c760.css",
+    "static/js/main.55e2eb2e.js"
   ]
 }
