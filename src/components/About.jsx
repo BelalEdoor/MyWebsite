@@ -14,7 +14,7 @@ export function About() {
   return (
     <section
   id="about"
-  className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 text-gray-900 dark:text-white mt-80"
+  className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 text-gray-900 dark:text-white mt-20"
 >
 
       <div className="about-text">
@@ -25,7 +25,7 @@ export function About() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={100}>
-          <p className="text-[1.4rem] font-medium tracking-wide">
+          <p className="text-[1.5rem] font-medium tracking-wide">
                Hi there! I am a passionate software engineer with a strong focus on web development, scalable digital solutions, and AI technologies. 
             I combine academic excellence with practical experience in modern frameworks such as React, ASP.NET, AI systems, and machine learning.
             I have managed and contributed to impactful projects, ranging from advanced IoT solutions to full-stack web platforms, 
@@ -36,13 +36,13 @@ export function About() {
 
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
-            <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-[2.3rem] font-semibold">
+            <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-[2.5rem] font-semibold">
               Education:
             </h2>
-            <h3 className="text-[1.8rem] font-medium">
+            <h3 className="text-[1.7rem] font-medium">
               Computer Systems Engineering (CSE)
             </h3>
-            <p className="text-[1.4rem] font-medium tracking-wide">
+            <p className="text-[1.5rem] font-medium tracking-wide">
               Faculty of Information Technology and Computer Engineering,
               Palestine Polytechnic University | September 2020 - Present | 3.3 GPA
             </p>
@@ -50,7 +50,7 @@ export function About() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
-          <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-2xl font-semibold">
+          <h2 className="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent text-[1.5rem] font-semibold">
             Here are my main Skills:
           </h2>
         </ScrollAnimation>
@@ -74,7 +74,7 @@ export function About() {
         </div>
       </div>
 
-      <div className="about-image text-center mt-8 md:mt-0">
+      <div className="about-image text-center mt-8 ml-40 md:mt-0">
         <ScrollAnimation animateIn="zoomIn" delay={210}>
           <img
             src={belaledoor}
