@@ -39,7 +39,7 @@ export function TrainingSection() {
         "The training focuses on real-world applications of AI, including data preprocessing, model development, evaluation, and deployment. This experience is helping me strengthen my problem-solving skills and deepen my understanding of modern AI technologies. I’m excited to keep learning and applying AI to create meaningful impact.",
     },
     {
-      title: "Full-Stack JavaScript Development",
+      title: "Full-Stack Development Nanodegree",
       period: "Augest 2025 – Present",
       place: "Udacity Platform",
       description:

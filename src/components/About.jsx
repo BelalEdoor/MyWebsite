@@ -80,7 +80,6 @@ export function About() {
             src={belaledoor}
             alt="Belal Edoor"
             className="w-full max-w-[500px] aspect-square object-cover rounded-full border border-gray-300 dark:border-gray-600 shadow-md mb-20 p-1"
-            style={{ transform: 'translateY(0px)' }}
           />
         </ScrollAnimation>
       </div>
