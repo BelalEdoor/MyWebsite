@@ -43,7 +43,7 @@ import imgReact from "../assets/web-dev-cert.jpeg";
 
       <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-5">
         {certificates.map((cert, index) => (
-          <ScrollAnimation animateIn="fadeInUp" key={index}>
+          <ScrollAnimation animateIn="zoomIn" key={index}>
             <div className="bg-gradient-to-b from-white to-gray-200 dark:from-gray-600 dark:to-gray-700 
               rounded-2xl shadow-2xl overflow-hidden flex flex-col h-[400px] 
               transition duration-300 hover:scale-105">

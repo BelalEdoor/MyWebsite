@@ -8,14 +8,14 @@ export function TrainingSection() {
       period: "March 2024 – June 2024",
       place: "Code Academy – Palestine Polytechnic University",
       description:
-        "I completed an intensive hands-on training focused on building modern, responsive web applications using React.js and Tailwind CSS. I applied service design principles to create scalable front-end systems and worked on real-world projects both individually and in groups, im roving my teamwork and problem-solving skills. ",
+        "🎓 I completed an intensive hands-on training focused on building modern, responsive web applications using React.js and Tailwind CSS. I applied service design principles to create scalable front-end systems and worked on real-world projects both individually and in groups, im roving my teamwork and problem-solving skills. ",
     },
     {
       title: "Front-End Development Nanodegree",
       period: "October 2024 – March 2025",
       place: "Udacity Platform",
       description:
-        "I completed hands-on training in core front-end technologies such as HTML, CSS, JavaScript, SCSS, and Webpack, gaining experience in modular programming, component-based architecture, and best practices. The program also included using Node.js and Express.js to build back-end services, enabling me to develop and deploy fully integrated projects with mentor feedback. ",
+        "🎓 I completed hands-on training in core front-end technologies such as HTML, CSS, JavaScript, SCSS, and Webpack, gaining experience in modular programming, component-based architecture, and best practices. The program also included using Node.js and Express.js to build back-end services, enabling me to develop and deploy fully integrated projects with mentor feedback. ",
     },
     {
       title: "NLP & LLM Training",
@@ -38,6 +38,13 @@ export function TrainingSection() {
       description:
         "The training focuses on real-world applications of AI, including data preprocessing, model development, evaluation, and deployment. This experience is helping me strengthen my problem-solving skills and deepen my understanding of modern AI technologies. I’m excited to keep learning and applying AI to create meaningful impact.",
     },
+    {
+      title: "Full-Stack JavaScript Development",
+      period: "Augest 2025 – Present",
+      place: "Udacity Platform",
+      description:
+        "I am currently enrolled in the Full Stack Web Developer Nanodegree - Palestine Track by Udacity. Through this program, I’ve gained hands-on experience in building scalable web applications using modern technologies such as Angular, Node.js, PostgreSQL, and RESTful APIs. The program emphasizes real-world projects, backend authentication, and deployment practices — preparing me to deliver production-ready digital solutions.",
+    },
   ];
 
   return (
@@ -56,7 +63,7 @@ export function TrainingSection() {
       {trainings.map((training, idx) => (
         <ScrollAnimation
           key={idx}
-          animateIn="fadeInUp"
+          animateIn="flipInX"
           delay={idx * 100}
           className="relative"
         >

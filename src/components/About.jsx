@@ -14,7 +14,7 @@ export function About() {
   return (
     <section
   id="about"
-  className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 text-gray-900 dark:text-white mt-40"
+  className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 text-gray-900 dark:text-white mt-80"
 >
 
       <div className="about-text">
@@ -75,7 +75,7 @@ export function About() {
       </div>
 
       <div className="about-image text-center mt-8 md:mt-0">
-        <ScrollAnimation animateIn="fadeInRight" delay={210}>
+        <ScrollAnimation animateIn="zoomIn" delay={210}>
           <img
             src={belaledoor}
             alt="Belal Edoor"
