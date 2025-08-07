@@ -67,7 +67,7 @@ export function About() {
                   animateIn="fadeInUp"
                   delay={(0.10 + i * 0.01) * 1000}
                 >
-                  <img src={icon} alt="skill-icon" className="w-[5rem]" />
+                  <img src={icon} alt="skill-icon" className="w-[3rem]" />
                 </ScrollAnimation>
               </div>
             )
@@ -75,7 +75,7 @@ export function About() {
         </div>
       </div>
 
-      <div className="about-image text-center mt-8 ml-40 md:mt-0">
+<div className="about-image text-center mt-8 md:mt-0 md:ml-40">
         <ScrollAnimation animateIn="zoomIn" delay={210}>
           <img
             src={belaledoor}
