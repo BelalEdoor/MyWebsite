@@ -2,50 +2,64 @@ import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function TrainingSection() {
-  const trainings = [
-    {
-      title: "Front-End Development Training (React.js)",
-      period: "March 2024 – June 2024",
-      place: "Code Academy – Palestine Polytechnic University",
-      description:
-        "🎓 I completed an intensive hands-on training focused on building modern, responsive web applications using React.js and Tailwind CSS. I applied service design principles to create scalable front-end systems and worked on real-world projects both individually and in groups, im roving my teamwork and problem-solving skills. ",
-    },
-    {
-      title: "Front-End Development Nanodegree",
-      period: "October 2024 – March 2025",
-      place: "Udacity Platform",
-      description:
-        "🎓 I completed hands-on training in core front-end technologies such as HTML, CSS, JavaScript, SCSS, and Webpack, gaining experience in modular programming, component-based architecture, and best practices. The program also included using Node.js and Express.js to build back-end services, enabling me to develop and deploy fully integrated projects with mentor feedback. ",
-    },
-    {
-      title: "NLP & LLM Training",
-      period: "June 2025 – Present",
-      place: "Gaza Sky Geeks",
-      description:
-        "I am currently participating in a training program specializing in natural language processing (NLP) and large language models (LLMs). The training covers key topics such as text analysis, language model engineering, and real-world AI applications. Through practical projects and case studies, I gain practical experience in effectively applying these concepts in real-world situations. ",
-    },
-    {
-      title: "AI Back-End Development Internship",
-      period: "July 2025 – Present",
-      place: "Trusted Systems",
-      description:
-        "AI Back-End Development involves building and optimizing server-side systems to support AI applications, including data processing, model integration, and API development. It focuses on ensuring scalability, performance, and secure communication between AI models and client interfaces. ",
-    },
-    {
-      title: "AI and Machine Learning Bootcamp",
-      period: "July 2025 – Present",
-      place: "Sprints Platform",
-      description:
-        "The training focuses on real-world applications of AI, including data preprocessing, model development, evaluation, and deployment. This experience is helping me strengthen my problem-solving skills and deepen my understanding of modern AI technologies. I’m excited to keep learning and applying AI to create meaningful impact.",
-    },
-    {
-      title: "Full-Stack Development Nanodegree",
-      period: "Augest 2025 – Present",
-      place: "Udacity Platform",
-      description:
-        "I am currently enrolled in the Full Stack Web Developer Nanodegree - Palestine Track by Udacity. Through this program, I’ve gained hands-on experience in building scalable web applications using modern technologies such as Angular, Node.js, PostgreSQL, and RESTful APIs. The program emphasizes real-world projects, backend authentication, and deployment practices — preparing me to deliver production-ready digital solutions.",
-    },
-  ];
+const trainings = [
+  {
+    title: "Front-End Development Training (React.js)",
+    period: "9 March 2024 – 30 June 2024",
+    place: "Code Academy – Palestine Polytechnic University",
+    description:
+      "🎓 I completed an intensive hands-on training focused on building modern, responsive web applications using React.js and Tailwind CSS. I applied service design principles to create scalable front-end systems and worked on real-world projects both individually and in groups, improving my teamwork and problem-solving skills.",
+  },
+  {
+    title: "Front-End Development Nanodegree",
+    period: "15 October 2024 – 21 March 2025",
+    place: "Udacity Platform",
+    description:
+      "🎓 I completed hands-on training in core front-end technologies such as HTML, CSS, JavaScript, SCSS, and Webpack, gaining experience in modular programming, component-based architecture, and best practices. The program also included using Node.js and Express.js to build back-end services, enabling me to develop and deploy fully integrated projects with mentor feedback.",
+  },
+  {
+    title: "NLP & LLM Training",
+    period: "18 June 2025 –16 Aug 2025",
+    place: "Gaza Sky Geeks",
+    description:
+      "🎓 I have successfully completed a specialized training program in natural language processing (NLP) and large language models (LLMs). The program covered key topics such as text analysis, language model engineering, and real-world AI applications. Through practical projects and case studies, I gained hands-on experience in effectively applying these concepts to real-world scenarios.",
+  },
+  {
+    title: "Firebase Essentials Training",
+    period: "July 2025",
+    place: "Code Academy",
+    description:
+      "🎓 I completed the Firebase Essentials training program, gaining practical skills in authentication, cloud storage, real-time database, and hosting. This training enabled me to integrate Firebase services into web and mobile applications, enhancing scalability and user experience.",
+  },
+  {
+    title: "Test Driven Development Training",
+    period: "July 2025",
+    place: "Code Academy",
+    description:
+      "🎓 I successfully completed the Test Driven Development (TDD) training, learning to write and implement tests before coding to ensure software quality, maintainability, and reliability. This approach improved my debugging efficiency and strengthened my problem-solving skills.",
+  },
+  {
+    title: "AI Back-End Development Internship",
+    period: "15 July 2025 – Present",
+    place: "Trusted Systems",
+    description:
+      "AI Back-End Development involves building and optimizing server-side systems to support AI applications, including data processing, model integration, and API development. It focuses on ensuring scalability, performance, and secure communication between AI models and client interfaces.",
+  },
+  {
+    title: "AI and Machine Learning Bootcamp",
+    period: "20 July 2025 – Present",
+    place: "Sprints Platform",
+    description:
+      "The training focuses on real-world applications of AI, including data preprocessing, model development, evaluation, and deployment. This experience is helping me strengthen my problem-solving skills and deepen my understanding of modern AI technologies. I’m excited to keep learning and applying AI to create meaningful impact.",
+  },
+  {
+    title: "Full-Stack Development Nanodegree",
+    period: "4 August 2025 – Present",
+    place: "Udacity Platform",
+    description:
+      "I am currently enrolled in the Full Stack Web Developer Nanodegree - Palestine Track by Udacity. Through this program, I’ve gained hands-on experience in building scalable web applications using modern technologies such as Angular, Node.js, PostgreSQL, and RESTful APIs. The program emphasizes real-world projects, backend authentication, and deployment practices — preparing me to deliver production-ready digital solutions.",
+  },
+];
 
   return (
   <section

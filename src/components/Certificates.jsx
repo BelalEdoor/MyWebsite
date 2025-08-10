@@ -2,7 +2,7 @@ import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import imgFirebase from "../assets/firebase-cert.jpg";
 import imgReact from "../assets/web-dev-cert.jpeg";
-// import imgAI from "../assets/ai-cert.png";
+import tdd from "../assets/TDD.jpg"
 
  export function Certificates() {
   const certificates = [
@@ -22,15 +22,14 @@ import imgReact from "../assets/web-dev-cert.jpeg";
       date: "July 2025",
       ImgCard: imgFirebase,
     },
-  
-    // {
-    //   title: "AI & Machine Learning",
-    //   description:
-    //     "Hands-on training in Artificial Intelligence and Machine Learning fundamentals.",
-    //   issuer: "Coursera",
-    //   date: "May 2025",
-    //   ImgCard: imgAI,
-    // },
+    {
+      title: "Test Driven Development",
+      description:
+        "Certificate awarded for completing Test Driven Development training.",
+      issuer: "IEEE",
+      date: "July 2025",
+      ImgCard: tdd,
+    },
   ];
 
   return (
