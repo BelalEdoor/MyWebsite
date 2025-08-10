@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/MyWebsite/static/css/main.53e27b6a.css",
-    "main.js": "/MyWebsite/static/js/main.a440b0da.js",
+    "main.js": "/MyWebsite/static/js/main.3aa98c1d.js",
     "static/media/main.png": "/MyWebsite/static/media/main.bd04c3b15e5307f0d447.png",
     "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.13586b932daf3ccb5323.pdf",
     "static/media/Dentalhub.png": "/MyWebsite/static/media/Dentalhub.d9dcc88bf848358d4539.png",
+    "static/media/TDD.jpg": "/MyWebsite/static/media/TDD.167f2d7c3264cd143511.jpg",
     "static/media/firebase-cert.jpg": "/MyWebsite/static/media/firebase-cert.1dd661c74d45fe6ceb58.jpg",
     "static/media/web-dev-cert.jpeg": "/MyWebsite/static/media/web-dev-cert.0521cc697449dae9f595.jpeg",
     "static/media/belaledoor1.jpg": "/MyWebsite/static/media/belaledoor1.d3491ec75da4e8060c1b.jpg",
@@ -30,10 +31,10 @@
     "static/media/linkedin.svg": "/MyWebsite/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/MyWebsite/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.53e27b6a.css.map": "/MyWebsite/static/css/main.53e27b6a.css.map",
-    "main.a440b0da.js.map": "/MyWebsite/static/js/main.a440b0da.js.map"
+    "main.3aa98c1d.js.map": "/MyWebsite/static/js/main.3aa98c1d.js.map"
   },
   "entrypoints": [
     "static/css/main.53e27b6a.css",
-    "static/js/main.a440b0da.js"
+    "static/js/main.3aa98c1d.js"
   ]
 }
