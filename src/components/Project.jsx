@@ -5,6 +5,7 @@ import imgBilalStore from "../assets/bilal-store.jpg";
 import imglibrery from "../assets/download1.jpeg";
 import imgCapstoneTravel from "../assets/capstone-travel.jpg";
 import imgdentalhub from "../assets/Dentalhub.png"
+import LitMinde from "../assets/LitMinde.jpg"
 export function Project() {
   const projects = [
 
@@ -14,7 +15,13 @@ export function Project() {
         "An online store built with React that displays categorized products.It supports search, filtering, and lets users add items to cart or favorites.The interface is responsive, user-friendly, and enables real-time interactions. ",
       github: "https://github.com/belal3door/E-commerce-store.git",
       external: "https://github.com/belal3door/E-commerce-store.git",
-      technologies: ["React Js", "Tailwind css" , "react-router-dom"],
+      technologies: [
+        "React",
+        "Tailwind CSS",
+        "FakeStore API",
+        "JavaScript",
+        "npm"
+      ],
       ImgCard: imgBilalStore,
       
     },
@@ -24,7 +31,15 @@ export function Project() {
         "A frontend capstone project that builds a travel app, integrating APIs to fetch weather, location, and trip details for a dynamic user experience.",
       github: "https://github.com/belal3door/Capstone-travel-app.git",
       external: "https://github.com/belal3door/Capstone-travel-app.git",
-      technologies: ["Node js", "HTML", "CSS", "Javascript"],
+
+  technologies: [
+    "JavaScript",
+    "HTML",
+    "SCSS",
+    "Webpack",
+    "npm"
+  ],
+
       ImgCard: imgCapstoneTravel,
     },
     {
@@ -33,7 +48,13 @@ export function Project() {
         "The Scientific Research Library is a digital platform committed to advancing knowledge by providing easy access to high-quality scientific publications, research papers, and educational resources.",
       github: "https://github.com/belal3door/Scientific-Research-Library.git",
       external: "https://github.com/belal3door/Scientific-Research-Library.git",
-      technologies: ["React Js", "Tailwind css" , "react-reouter-dom"],
+      technologies: [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Tailwind CSS"
+      ],
       ImgCard: imglibrery,
     },
     {
@@ -42,8 +63,25 @@ export function Project() {
         "DentalHub Platform is a digital system for managing dental clinics, offering tools for appointments, patient records, and communication. It enhances workflow efficiency and improves patient experience.",
       github: "https://github.com/BelalEdoor/DentalHub-Platform.git",
       external: "https://github.com/BelalEdoor/DentalHub-Platform.git",
-      technologies: ["React Js", "API Context"],
+      technologies: 
+      [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS"
+      ]
+    ,
       ImgCard: imgdentalhub,
+    },
+    {
+      title: "LitMinde",
+      description:
+        "I developed an interactive application called LitMind using Python and Gradio, which reads book data, provides intelligent text summaries via the BART model, and recommends the best books based on rating and recent publication, with caching support to increase efficiency and improve user experience.",
+      github: "https://github.com/BelalEdoor/LitMind_Story_Summarization_And_Recommendation_chatbot.git",
+      external: "https://github.com/BelalEdoor/LitMind_Story_Summarization_And_Recommendation_chatbot.git",
+      technologies: ["Python", "Pandas", "PyTorch", "Hugging Face Transformers (BART)", "Gradio", "JSON", "Regex", "Datetime"],
+      ImgCard: LitMinde,
     },
   ];
 
