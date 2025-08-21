@@ -77,10 +77,10 @@ export function Project() {
     {
       title: "LitMinde",
       description:
-        "I developed an interactive application called LitMind using Python and Gradio, which reads book data, provides intelligent text summaries via the BART model, and recommends the best books based on rating and recent publication, with caching support to increase efficiency and improve user experience.",
+        "Developed LitMind, an interactive Python app with Gradio that summarizes books using BART and recommends top-rated recent titles with caching for efficiency.",
       github: "https://github.com/BelalEdoor/LitMind_Story_Summarization_And_Recommendation_chatbot.git",
       external: "https://github.com/BelalEdoor/LitMind_Story_Summarization_And_Recommendation_chatbot.git",
-      technologies: ["Python", "Pandas", "PyTorch", "Hugging Face Transformers (BART)", "Gradio", "JSON", "Regex", "Datetime"],
+      technologies: [ "Pandas", "PyTorch", "Hugging Face Transformers (BART)", "Gradio", "JSON"],
       ImgCard: LitMinde,
     },
   ];

@@ -3,6 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import imgFirebase from "../assets/firebase-cert.jpg";
 import imgReact from "../assets/web-dev-cert.jpeg";
 import tdd from "../assets/TDD.jpg"
+import Alg from "../assets/alg.png"
 
  export function Certificates() {
   const certificates = [
@@ -13,6 +14,14 @@ import tdd from "../assets/TDD.jpg"
       issuer: "Udacity",
       date: "March 2025",
       ImgCard: imgReact,
+    },
+    {
+      title: "Data Structures & Algorithms",
+      description:
+        "Completed a course on Data Structures & Algorithms with a focus on interview preparation.",
+      issuer: "Udacity",
+      date: "March 2025",
+      ImgCard: Alg,
     },
     {
       title: "Firebase Essentials",
