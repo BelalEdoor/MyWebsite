@@ -59,6 +59,13 @@ const trainings = [
     description:
       "I am currently enrolled in the Full Stack Web Developer Nanodegree - Palestine Track by Udacity. Through this program, I’ve gained hands-on experience in building scalable web applications using modern technologies such as Angular, Node.js, PostgreSQL, and RESTful APIs. The program emphasizes real-world projects, backend authentication, and deployment practices — preparing me to deliver production-ready digital solutions.",
   },
+  {
+    title: "AI Intern – Deep Dive LLM",
+    period: "3 Sep 2025 – Present",
+    place: "zakey.tech",
+    description:
+      "I am participating in an intensive 4-month bootcamp focused on building and deploying AI agents using cutting-edge Large Language Models (LLMs), where I gain hands-on experience with modern AI tools and frameworks for real-world applications. I develop practical skills in natural language understanding, model fine-tuning, and AI solution deployment, while collaborating with peers and mentors to design, implement, and optimize AI-driven solutions. This experience allows me to deepen my knowledge in AI, deep learning, and emerging LLM technologies, enhancing my problem-solving capabilities and preparing me to create impactful solutions.",
+  },
 ];
 
   return (

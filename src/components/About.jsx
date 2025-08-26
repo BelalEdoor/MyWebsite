@@ -4,12 +4,14 @@ import java from "../assets/java.svg";
 import jsIcon from "../assets/js-icon.svg";
 import reactIcon from "../assets/react-icon.svg";
 import Cplus from "../assets/c.svg";
-import ROS from "../assets/Ros_logo.svg";
 import Firebase from "../assets/firebase.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-import ASP from "../assets/aspnet-svgrepo-com.svg"
+import ASP from "../assets/asp-removebg-preview.png"
 import Csharp from "../assets/Logo_C_sharp.svg"
-import nodejs from  "../assets/nodejs-logo-svgrepo-com.svg"
+import nodejs from  "../assets/node_js-removebg-preview.png"
+import typescript from "../assets/typescript.svg"
+import Anguler from "../assets/anguler-removebg-preview.png"
+
 
 export function About() {
   return (
@@ -27,12 +29,7 @@ export function About() {
 
         <ScrollAnimation animateIn="fadeInLeft" delay={100}>
           <p className="text-[1.5rem] font-medium tracking-wide">
-               Hi there! I am a passionate software engineer with a strong focus on web development, scalable digital solutions, and AI technologies. 
-            I combine academic excellence with practical experience in modern frameworks such as React, ASP.NET, AI systems, and machine learning.
-            I have managed and contributed to impactful projects, ranging from advanced IoT solutions to full-stack web platforms, 
-            demonstrating my ability to build efficient, user-centric applications. My diverse technical background in problem-solving, data structures, algorithms, 
-            and backend systems, combined with ongoing internships and bootcamps in the field of AI, enables me to create innovative solutions that make a tangible impact on the ground.
-          </p>
+             I am a dedicated software engineer specializing in web development, scalable digital solutions, and AI technologies. With hands-on experience in frameworks like React, ASP.NET, and modern AI systems, I have successfully contributed to projects ranging from IoT solutions to full-stack platforms. My strong foundation in data structures, algorithms, and backend systems—combined with intensive training and internships in AI and LLMs—enables me to design and deploy innovative, user-centric applications. I continuously seek to bridge academic knowledge with practical expertise, delivering impactful solutions that address real-world challenges.</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
@@ -57,7 +54,7 @@ export function About() {
         </ScrollAnimation>
 
         <div className="hard-skills mt-6 flex items-center flex-wrap gap-[1.8rem]">
-          {[Cplus, java, python, Csharp, jsIcon, reactIcon, Firebase, nodejs, ASP, ROS].map(
+          {[Cplus, Csharp, java, python, jsIcon, reactIcon, Anguler, typescript, Firebase, ASP, nodejs].map(
             (icon, i) => (
               <div
                 className="hability flex flex-col items-center"
