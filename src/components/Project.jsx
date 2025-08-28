@@ -6,6 +6,7 @@ import imglibrery from "../assets/download1.jpeg";
 import imgCapstoneTravel from "../assets/capstone-travel.jpg";
 import imgdentalhub from "../assets/Dentalhub.png"
 import LitMinde from "../assets/LitMinde.jpg"
+import bookstore from "../assets/book store.jpg"
 export function Project() {
   const projects = [
 
@@ -82,6 +83,15 @@ export function Project() {
       external: "https://github.com/BelalEdoor/LitMind_Story_Summarization_And_Recommendation_chatbot.git",
       technologies: [ "Pandas", "PyTorch", "Hugging Face Transformers (BART)", "Gradio", "JSON"],
       ImgCard: LitMinde,
+    },
+    {
+      title: "Book Store",
+      description:
+        "An intelligent online bookstore that combines digital shopping convenience with the power of AI to deliver personalized recommendations for every reader.",
+      github: "https://github.com/BelalEdoor/Book_Store.git",
+      external: "https://github.com/BelalEdoor/Book_Store.git",
+      technologies: [ "ASP.NET Core", "MVC", "EF", "SQL Server"],
+      ImgCard: bookstore,
     },
   ];
 

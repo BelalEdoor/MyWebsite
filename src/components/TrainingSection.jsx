@@ -40,10 +40,10 @@ const trainings = [
   },
   {
     title: "AI Back-End Development Internship",
-    period: "15 July 2025 – Present",
+    period: "15 July 2025 – 30 Aug 2025",
     place: "Trusted Systems",
     description:
-      "AI Back-End Development involves building and optimizing server-side systems to support AI applications, including data processing, model integration, and API development. It focuses on ensuring scalability, performance, and secure communication between AI models and client interfaces.",
+      "🎓 Successfully completed a hands-on ASP.NET back-end development training, focusing on building and maintaining server-side applications. Gained practical experience in database management, authentication, and application deployment, while following clean code principles and best practices .As a final project, I developed a Bookstore web application enhanced with an AI model to provide book recommendations and summaries.",
   },
   {
     title: "AI and Machine Learning Bootcamp",
