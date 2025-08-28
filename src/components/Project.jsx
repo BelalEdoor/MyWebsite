@@ -85,7 +85,7 @@ export function Project() {
       ImgCard: LitMinde,
     },
     {
-      title: "Book Store",
+      title: "BookVerse AI",
       description:
         "An intelligent online bookstore that combines digital shopping convenience with the power of AI to deliver personalized recommendations for every reader.",
       github: "https://github.com/BelalEdoor/Book_Store.git",
