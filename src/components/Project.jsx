@@ -6,7 +6,7 @@ import imglibrery from "../assets/download1.jpeg";
 import imgCapstoneTravel from "../assets/capstone-travel.jpg";
 import imgdentalhub from "../assets/Dentalhub.png"
 import LitMinde from "../assets/LitMinde.jpg"
-import bookstore from "../assets/book store.jpg"
+import bookshop from "../assets/bookshop.jpeg"
 export function Project() {
   const projects = [
 
@@ -85,13 +85,13 @@ export function Project() {
       ImgCard: LitMinde,
     },
     {
-      title: "BookVerse AI",
+      title: "BookEcommerce APIs",
       description:
-        "An intelligent online bookstore that combines digital shopping convenience with the power of AI to deliver personalized recommendations for every reader.",
-      github: "https://github.com/BelalEdoor/Book_Store.git",
-      external: "https://github.com/BelalEdoor/Book_Store.git",
-      technologies: [ "ASP.NET Core", "MVC", "EF", "SQL Server"],
-      ImgCard: bookstore,
+        "The Book_Ecommerce_APIs project is an ASP.NET-based API set designed to support book e-commerce applications, focusing on data management, operations handling, and application workflows.",
+      github: "https://github.com/BelalEdoor/Book_Ecommerce_APIs.git",
+      external: "https://github.com/BelalEdoor/Book_Ecommerce_APIs.git",
+      technologies: ["ASP.NET Core", "APIs", "Entity Framework", "SQL Server"],
+      ImgCard: bookshop,
     },
   ];
 
