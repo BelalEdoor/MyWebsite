@@ -4,6 +4,7 @@ import imgFirebase from "../assets/firebase-cert.jpg";
 import imgReact from "../assets/web-dev-cert.jpeg";
 import tdd from "../assets/TDD.jpg"
 import Alg from "../assets/alg.png"
+import LLM from "../assets/LLM.jpg"
 
  export function Certificates() {
   const certificates = [
@@ -39,6 +40,14 @@ import Alg from "../assets/alg.png"
       date: "July 2025",
       ImgCard: tdd,
     },
+    {
+      title: "LLM & NLP Training",
+      description:
+        "Certificate awarded for completing LLM & NLP Training.",
+      issuer: "Gaza Sky Geeks",
+      date: "SEP 2025",
+      ImgCard: LLM,
+    }
   ];
 
   return (
