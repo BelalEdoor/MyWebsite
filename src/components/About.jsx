@@ -29,7 +29,9 @@ export function About() {
 
         <ScrollAnimation animateIn="fadeInLeft" delay={100}>
           <p className="text-[1.5rem] font-medium tracking-wide">
-             I am a dedicated software engineer specializing in web development, scalable digital solutions, and AI technologies. With hands-on experience in frameworks like React, ASP.NET, and modern AI systems, I have successfully contributed to projects ranging from IoT solutions to full-stack platforms. My strong foundation in data structures, algorithms, and backend systems—combined with intensive training and internships in AI and LLMs—enables me to design and deploy innovative, user-centric applications. I continuously seek to bridge academic knowledge with practical expertise, delivering impactful solutions that address real-world challenges.</p>
+I am a Software Engineer with strong expertise in web development, scalable systems, and Artificial Intelligence solutions. I have extensive experience in building full-stack platforms and integrating machine learning models and AI technologies into real-world applications. I am highly skilled in React, ASP.NET, Node.js, and other modern frameworks, and I have enhanced my practical knowledge through hands-on training and internships in AI, NLP, and backend systems.
+
+Throughout my projects, I focus on creating efficient, user-centric applications that solve real-world problems. My strong foundation in data structures, algorithms, and backend architectures, combined with my dedication to learning emerging AI technologies, allows me to design, implement, and optimize innovative solutions. I thrive on bridging academic knowledge with practical experience, continuously improving my technical skills, and delivering impactful, intelligent systems that drive measurable results.             </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
