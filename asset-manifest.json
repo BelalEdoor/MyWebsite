@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.6926c7e5.css",
-    "main.js": "/MyWebsite/static/js/main.92acc2e4.js",
+    "main.css": "/MyWebsite/static/css/main.33060979.css",
+    "main.js": "/MyWebsite/static/js/main.c9e378f8.js",
     "static/media/main.png": "/MyWebsite/static/media/main.bd04c3b15e5307f0d447.png",
     "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.ee73ea0d3895e7224de3.pdf",
     "static/media/Dentalhub.png": "/MyWebsite/static/media/Dentalhub.d9dcc88bf848358d4539.png",
     "static/media/belaledoor1.jpg": "/MyWebsite/static/media/belaledoor1.1aed844515475a8265c2.jpg",
     "static/media/alg.png": "/MyWebsite/static/media/alg.5d04555439903016d5e9.png",
+    "static/media/sprints.jpg": "/MyWebsite/static/media/sprints.4ef46dbc212c141b15f1.jpg",
     "static/media/LLM.jpg": "/MyWebsite/static/media/LLM.3e01f4bc29f91f472db7.jpg",
     "static/media/asp-removebg-preview.png": "/MyWebsite/static/media/asp-removebg-preview.ac782bc003e944b576c5.png",
     "static/media/bookshop.jpeg": "/MyWebsite/static/media/bookshop.64a84d5c775fb32a1a29.jpeg",
@@ -35,11 +36,11 @@
     "static/media/external-link.svg": "/MyWebsite/static/media/external-link.8ce0d189635b118259ec51d8c9b4a1d0.svg",
     "static/media/linkedin.svg": "/MyWebsite/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/MyWebsite/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
-    "main.6926c7e5.css.map": "/MyWebsite/static/css/main.6926c7e5.css.map",
-    "main.92acc2e4.js.map": "/MyWebsite/static/js/main.92acc2e4.js.map"
+    "main.33060979.css.map": "/MyWebsite/static/css/main.33060979.css.map",
+    "main.c9e378f8.js.map": "/MyWebsite/static/js/main.c9e378f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.6926c7e5.css",
-    "static/js/main.92acc2e4.js"
+    "static/css/main.33060979.css",
+    "static/js/main.c9e378f8.js"
   ]
 }
