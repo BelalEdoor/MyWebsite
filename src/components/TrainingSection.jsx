@@ -1,111 +1,107 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
+import { motion } from "framer-motion";
 
 export function TrainingSection() {
-const trainings = [
-  {
-    title: "Front-End Development Training (React.js)",
-    period: "March 2024 – June 2024",
-    place: "Code Academy – Palestine Polytechnic University",
-    description:
-      "🎓 I completed an intensive hands-on training focused on building modern, responsive web applications using React.js and Tailwind CSS. I applied service design principles to create scalable front-end systems and worked on real-world projects both individually and in groups, improving my teamwork and problem-solving skills.",
-  },
-  {
-    title: "Front-End Development Nanodegree",
-    period: "October 2024 – March 2025",
-    place: "Udacity Platform",
-    description:
-      "🎓 I completed hands-on training in core front-end technologies such as HTML, CSS, JavaScript, SCSS, and Webpack, gaining experience in modular programming, component-based architecture, and best practices. The program also included using Node.js and Express.js to build back-end services, enabling me to develop and deploy fully integrated projects with mentor feedback.",
-  },
-  {
-    title: "NLP & LLM Training",
-    period: "June 2025 – Aug 2025",
-    place: "Gaza Sky Geeks",
-    description:
-      "🎓 I have successfully completed a specialized training program in natural language processing (NLP) and large language models (LLMs). The program covered key topics such as text analysis, language model engineering, and real-world AI applications. Through practical projects and case studies, I gained hands-on experience in effectively applying these concepts to real-world scenarios.",
-  },
-  {
-    title: "Firebase Essentials Training",
-    period: "July 2025",
-    place: "Code Academy",
-    description:
-      "🎓 I completed the Firebase Essentials training program, gaining practical skills in authentication, cloud storage, real-time database, and hosting. This training enabled me to integrate Firebase services into web and mobile applications, enhancing scalability and user experience.",
-  },
-  {
-    title: "Test Driven Development Training",
-    period: "July 2025",
-    place: "Code Academy",
-    description:
-      "🎓 I successfully completed the Test Driven Development (TDD) training, learning to write and implement tests before coding to ensure software quality, maintainability, and reliability. This approach improved my debugging efficiency and strengthened my problem-solving skills.",
-  },
-  {
-    title: "AI Back-End Development Internship",
-    period: "July 2025 – Aug 2025",
-    place: "Trusted Systems",
-    description:
-      "🎓 Successfully completed a hands-on ASP.NET back-end development training, focusing on building and maintaining server-side applications. Gained practical experience in database management, authentication, and application deployment, while following clean code principles and best practices .As a final project, I developed a Bookstore web application enhanced with an AI model to provide book recommendations and summaries.",
-  },
-  {
-    title: "Full-Stack Development Nanodegree",
-    period: "August 2025 – Present",
-    place: "Udacity Platform",
-    description:
-      "I am currently enrolled in the Full Stack Web Developer Nanodegree - Palestine Track by Udacity. Through this program, I’ve gained hands-on experience in building scalable web applications using modern technologies such as Angular, Node.js, PostgreSQL, and RESTful APIs. The program emphasizes real-world projects, backend authentication, and deployment practices — preparing me to deliver production-ready digital solutions.",
-  },
-  {
-    title: "AI Intern – Deep Dive LLM",
-    period: "Sep 2025 – Present",
-    place: "zakey.tech",
-    description:
-      "I am participating in an intensive 4-month bootcamp focused on building and deploying AI agents using cutting-edge Large Language Models (LLMs), where I gain hands-on experience with modern AI tools and frameworks for real-world applications. I develop practical skills in natural language understanding, model fine-tuning, and AI solution deployment, while collaborating with peers and mentors to design, implement, and optimize AI-driven solutions. This experience allows me to deepen my knowledge in AI, deep learning, and emerging LLM technologies, enhancing my problem-solving capabilities and preparing me to create impactful solutions.",
-  },
+  const trainings = [
     {
-    title: "DataCamp Scholarship Program",
-    period: "Sep 2025 – Sep 2026",
-    place: "Gaza Sky Geeks",
-    description:
-      "I was awarded a fully-funded DataCamp scholarship to advance my skills in data science, Python, SQL, and AI tools through a structured self-paced program. During this program, I complete hands-on projects and real-world exercises that cover data analysis, visualization, machine learning, and AI applications. I collaborate with mentors and peers to apply practical techniques, optimize workflows, and implement data-driven solutions. This experience enhances my technical proficiency, problem-solving abilities, and readiness to develop impactful solutions in data science and AI domains.",
-  },
-];
+      title: "Front-End Development Training (React.js)",
+      period: "March 2024 – June 2024",
+      place: "Code Academy – Palestine Polytechnic University",
+      description:
+        "I completed an intensive hands-on training focused on building modern, responsive web applications using React.js and Tailwind CSS. I applied service design principles to create scalable front-end systems and worked on real-world projects both individually and in groups, improving my teamwork and problem-solving skills.",
+    },
+    {
+      title: "Front-End Development Nanodegree",
+      period: "October 2024 – March 2025",
+      place: "Udacity Platform",
+      description:
+        "I completed hands-on training in HTML, CSS, JavaScript, SCSS, and Webpack, gaining experience in modular programming and best practices. I also worked with Node.js and Express.js to build fully integrated projects with mentor feedback.",
+    },
+    {
+      title: "NLP & LLM Training",
+      period: "June 2025 – Aug 2025",
+      place: "Gaza Sky Geeks",
+      description:
+        "Specialized training program in NLP and LLMs. Covered text analysis, language model engineering, and real-world AI applications. Gained hands-on experience through practical projects and case studies.",
+    },
+    {
+      title: "Firebase Essentials Training",
+      period: "July 2025",
+      place: "Code Academy",
+      description:
+        "Practical training in Firebase authentication, cloud storage, real-time database, and hosting. Integrated Firebase services into web and mobile applications to improve scalability and user experience.",
+    },
+    {
+      title: "AI Back-End Development Internship",
+      period: "July 2025 – Aug 2025",
+      place: "Trusted Systems",
+      description:
+        "Hands-on ASP.NET back-end development internship. Focused on database management, authentication, and deployment. Final project: Bookstore web app with AI-powered recommendations.",
+    },
+    {
+      title: "Full-Stack Development Nanodegree",
+      period: "August 2025 – Present",
+      place: "Udacity Platform",
+      description:
+        "Currently enrolled in the Full-Stack Web Developer Nanodegree. Working with Angular, Node.js, PostgreSQL, and REST APIs. Building production-ready apps with authentication, deployment, and scalability.",
+    },
+    {
+      title: "AI Intern – Deep Dive LLM",
+      period: "Sep 2025 – Present",
+      place: "zakey.tech",
+      description:
+        "Intensive bootcamp on AI agents and LLMs. Gained hands-on skills in natural language understanding, fine-tuning, and AI solution deployment. Collaborated with peers and mentors on impactful AI-driven projects.",
+    },
+    {
+      title: "DataCamp Scholarship Program",
+      period: "Sep 2025 – Sep 2026",
+      place: "Gaza Sky Geeks",
+      description:
+        "Awarded a full DataCamp scholarship to advance skills in Python, SQL, and AI tools. Completed hands-on projects in data analysis, visualization, ML, and AI applications with mentorship and peer collaboration.",
+    },
+  ];
 
   return (
-  <section
-  id="training"
-  className="px-4 sm:px-10 lg:px-20 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 transition-colors duration-500"
->
-  <div className="max-w-screen-xl mx-auto">
-    <ScrollAnimation animateIn="fadeInDown">
-      <h2 className="text-center text-[3.2rem] font-bold text-purple-600 dark:text-purple-400 mb-24">
-        Internships & Trainings
-      </h2>
-    </ScrollAnimation>
-
-    <div className="relative border-l-[4px] border-purple-500 dark:border-purple-600 pl-10 space-y-16">
-      {trainings.map((training, idx) => (
-        <ScrollAnimation
-          key={idx}
-          animateIn="flipInX"
-          delay={idx * 100}
-          className="relative"
+    <section
+      id="training"
+      className="px-8 sm:px-16 lg:px-28 py-28 bg-gradient-to-b from-gray-50 via-white to-gray-100 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 text-gray-800 dark:text-gray-100 transition-colors duration-500"
+    >
+      <div className="max-w-screen-2xl mx-auto">
+        <motion.h2
+          initial={{ opacity: 0, y: -40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="text-center text-5xl md:text-6xl font-extrabold text-purple-600 dark:text-purple-400 mb-20"
         >
-          <div className="absolute -left-[18px] top-1 w-7 h-7 bg-purple-500 dark:bg-purple-400 rounded-full border-[5px] border-white dark:border-gray-950 shadow-xl"></div>
-          <div className="pl-2">
-            <h3 className="text-[1.8rem] font-semibold text-purple-700 dark:text-purple-300 mb-2">
-              {training.title}
-            </h3>
-            <p className="text-[1rem] text-gray-600 dark:text-gray-400 mb-3">
-              📍 {training.place} | 🗓️ {training.period}
-            </p>
-            <p className="text-[1.3rem] text-gray-700 dark:text-gray-300 leading-relaxed">
-              {training.description}
-            </p>
-          </div>
-        </ScrollAnimation>
-      ))}
-    </div>
-  </div>
-</section>
+          Internships & Trainings
+        </motion.h2>
 
-
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+          {trainings.map((training, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: idx * 0.1 }}
+              viewport={{ once: true }}
+              className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl hover:shadow-2xl transition-transform transform hover:-translate-y-2 duration-300 border border-gray-200 dark:border-gray-700 p-10 flex flex-col justify-between"
+            >
+              <div>
+                <h3 className="text-2xl font-bold text-purple-700 dark:text-purple-300 mb-4">
+                  {training.title}
+                </h3>
+                <p className="text-lg text-gray-500 dark:text-gray-400 mb-5">
+                  {training.place} | {training.period}
+                </p>
+                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                  {training.description}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }

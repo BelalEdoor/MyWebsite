@@ -5,7 +5,7 @@ import imgReact from "../assets/web-dev-cert.jpeg";
 import tdd from "../assets/TDD.jpg"
 import Alg from "../assets/alg.png"
 import LLM from "../assets/LLM.jpg"
-
+import Sprints from "../assets/sprints.jpg"
  export function Certificates() {
   const certificates = [
       {
@@ -47,6 +47,14 @@ import LLM from "../assets/LLM.jpg"
       issuer: "Gaza Sky Geeks",
       date: "SEP 2025",
       ImgCard: LLM,
+    },
+    {
+      title: "AI and Machine Learning",
+      description:
+        "Certificate awarded for completing AI and Machine Learning.",
+      issuer: "Sprints Platform",
+      date: "SEP 2025",
+      ImgCard: Sprints,
     }
   ];
 
