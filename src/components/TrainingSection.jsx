@@ -31,6 +31,13 @@ export function TrainingSection() {
       description:
         "Practical training in Firebase authentication, cloud storage, real-time database, and hosting. Integrated Firebase services into web and mobile applications to improve scalability and user experience.",
     },
+     {
+      title: "AI and Machine learning",
+      period: "July 2025 - Sep 2025 ",
+      place: "Sprints Platform",
+      description:
+        "Earned a certification in AI and Machine Learning from Sprints, covering supervised and unsupervised learning, neural networks, and model evaluation. The program emphasized hands-on projects applying data preprocessing, feature engineering, and predictive modeling.",
+    },
     {
       title: "AI Back-End Development Internship",
       period: "July 2025 – Aug 2025",
