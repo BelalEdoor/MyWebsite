@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyWebsite/static/css/main.33060979.css",
-    "main.js": "/MyWebsite/static/js/main.c9e378f8.js",
+    "main.js": "/MyWebsite/static/js/main.1b72f531.js",
     "static/media/main.png": "/MyWebsite/static/media/main.bd04c3b15e5307f0d447.png",
     "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.ee73ea0d3895e7224de3.pdf",
     "static/media/Dentalhub.png": "/MyWebsite/static/media/Dentalhub.d9dcc88bf848358d4539.png",
@@ -37,10 +37,10 @@
     "static/media/linkedin.svg": "/MyWebsite/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/MyWebsite/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.33060979.css.map": "/MyWebsite/static/css/main.33060979.css.map",
-    "main.c9e378f8.js.map": "/MyWebsite/static/js/main.c9e378f8.js.map"
+    "main.1b72f531.js.map": "/MyWebsite/static/js/main.1b72f531.js.map"
   },
   "entrypoints": [
     "static/css/main.33060979.css",
-    "static/js/main.c9e378f8.js"
+    "static/js/main.1b72f531.js"
   ]
 }
