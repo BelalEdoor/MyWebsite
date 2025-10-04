@@ -2,8 +2,6 @@ import githubIcon from "../assets/github.svg";
 import externalLink from "../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import imgBilalStore from "../assets/bilal-store.jpg";
-import imglibrery from "../assets/download1.jpeg";
-import imgCapstoneTravel from "../assets/capstone-travel.jpg";
 import imgdentalhub from "../assets/Dentalhub.png"
 import LitMinde from "../assets/LitMinde.jpg"
 import bookshop from "../assets/bookshop.jpeg"
@@ -25,38 +23,6 @@ export function Project() {
       ],
       ImgCard: imgBilalStore,
       
-    },
-    {
-      title: "Capstone travel app",
-      description:
-        "A frontend capstone project that builds a travel app, integrating APIs to fetch weather, location, and trip details for a dynamic user experience.",
-      github: "https://github.com/belal3door/Capstone-travel-app.git",
-      external: "https://github.com/belal3door/Capstone-travel-app.git",
-
-  technologies: [
-    "JavaScript",
-    "HTML",
-    "SCSS",
-    "Webpack",
-    "npm"
-  ],
-
-      ImgCard: imgCapstoneTravel,
-    },
-    {
-      title: "Scientific Research Library",
-      description:
-        "The Scientific Research Library is a digital platform committed to advancing knowledge by providing easy access to high-quality scientific publications, research papers, and educational resources.",
-      github: "https://github.com/belal3door/Scientific-Research-Library.git",
-      external: "https://github.com/belal3door/Scientific-Research-Library.git",
-      technologies: [
-        "React",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Tailwind CSS"
-      ],
-      ImgCard: imglibrery,
     },
     {
       title: "DentalHub Platform",

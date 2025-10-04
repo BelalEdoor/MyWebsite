@@ -31,7 +31,7 @@ export function TrainingSection() {
       description:
         "Practical training in Firebase authentication, cloud storage, real-time database, and hosting. Integrated Firebase services into web and mobile applications to improve scalability and user experience.",
     },
-     {
+    {
       title: "AI and Machine learning",
       period: "July 2025 - Sep 2025 ",
       place: "Sprints Platform",
@@ -71,7 +71,7 @@ export function TrainingSection() {
   return (
     <section
       id="training"
-      className="px-8 sm:px-16 lg:px-28 py-28 bg-gradient-to-b from-gray-50 via-white to-gray-100 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 text-gray-800 dark:text-gray-100 transition-colors duration-500"
+      className="mt-60 sm:px-12 lg:px-20 py-20 md:py-28 bg-gradient-to-b from-gray-50 via-white to-gray-100 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 text-gray-800 dark:text-gray-100 transition-colors duration-500"
     >
       <div className="max-w-screen-2xl mx-auto">
         <motion.h2
@@ -79,12 +79,12 @@ export function TrainingSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center text-5xl md:text-6xl font-extrabold text-purple-600 dark:text-purple-400 mb-20"
+          className="text-center text-4xl md:text-5xl font-extrabold text-purple-600 dark:text-purple-400 mb-16"
         >
           Internships & Trainings
         </motion.h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
           {trainings.map((training, idx) => (
             <motion.div
               key={idx}
@@ -92,16 +92,16 @@ export function TrainingSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
               viewport={{ once: true }}
-              className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl hover:shadow-2xl transition-transform transform hover:-translate-y-2 duration-300 border border-gray-200 dark:border-gray-700 p-10 flex flex-col justify-between"
+              className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-transform transform hover:-translate-y-2 duration-300 border border-gray-200 dark:border-gray-700 p-6 flex flex-col h-full"
             >
               <div>
-                <h3 className="text-2xl font-bold text-purple-700 dark:text-purple-300 mb-4">
+                <h3 className="text-xl font-bold text-purple-700 dark:text-purple-300 mb-3">
                   {training.title}
                 </h3>
-                <p className="text-lg text-gray-500 dark:text-gray-400 mb-5">
+                <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
                   {training.place} | {training.period}
                 </p>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-base text-gray-700 dark:text-gray-300 leading-relaxed">
                   {training.description}
                 </p>
               </div>
