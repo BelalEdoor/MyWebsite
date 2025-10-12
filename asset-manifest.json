@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/MyWebsite/static/css/main.7d7a3751.css",
-    "main.js": "/MyWebsite/static/js/main.04e8d643.js",
+    "main.js": "/MyWebsite/static/js/main.7019ba18.js",
     "static/media/main.png": "/MyWebsite/static/media/main.bd04c3b15e5307f0d447.png",
-    "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.577cf1772e2a8ed0c1f6.pdf",
+    "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.d2fdf1cd7dd1187670e9.pdf",
     "static/media/Dentalhub.png": "/MyWebsite/static/media/Dentalhub.d9dcc88bf848358d4539.png",
+    "static/media/fullstack.png": "/MyWebsite/static/media/fullstack.dc4845ade17e12c4c82e.png",
     "static/media/belaledoor1.jpg": "/MyWebsite/static/media/belaledoor1.1aed844515475a8265c2.jpg",
     "static/media/alg.png": "/MyWebsite/static/media/alg.5d04555439903016d5e9.png",
     "static/media/sprints.jpg": "/MyWebsite/static/media/sprints.cd74f2663ba864037440.jpg",
@@ -16,6 +17,7 @@
     "static/media/node_js-removebg-preview.png": "/MyWebsite/static/media/node_js-removebg-preview.8dfb8067bdc62982c811.png",
     "static/media/firebase-cert.jpg": "/MyWebsite/static/media/firebase-cert.1dd661c74d45fe6ceb58.jpg",
     "static/media/web-dev-cert.jpeg": "/MyWebsite/static/media/web-dev-cert.0521cc697449dae9f595.jpeg",
+    "static/media/my store.png": "/MyWebsite/static/media/my store.3e7ea9a75c8e1772024a.png",
     "static/media/typescript.svg": "/MyWebsite/static/media/typescript.c0eb7115ca99c9b18ba0baf90f610f7d.svg",
     "static/media/Logo_C_sharp.svg": "/MyWebsite/static/media/Logo_C_sharp.e2c0510d2b743a87e7621b703ba07906.svg",
     "static/media/whatsapp.svg": "/MyWebsite/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
@@ -32,10 +34,10 @@
     "static/media/linkedin.svg": "/MyWebsite/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/MyWebsite/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.7d7a3751.css.map": "/MyWebsite/static/css/main.7d7a3751.css.map",
-    "main.04e8d643.js.map": "/MyWebsite/static/js/main.04e8d643.js.map"
+    "main.7019ba18.js.map": "/MyWebsite/static/js/main.7019ba18.js.map"
   },
   "entrypoints": [
     "static/css/main.7d7a3751.css",
-    "static/js/main.04e8d643.js"
+    "static/js/main.7019ba18.js"
   ]
 }
