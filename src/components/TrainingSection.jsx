@@ -50,10 +50,9 @@ export function TrainingSection() {
       period: "August 2025 – Present",
       place: "Udacity Platform",
       description:
-        "Currently enrolled in the Full-Stack Web Developer Nanodegree. Working with Angular, Node.js, PostgreSQL, and REST APIs. Building production-ready apps with authentication, deployment, and scalability.",
-    },
+      "Successfully completed the Full-Stack Web Developer Nanodegree, gaining hands-on experience with Angular, Node.js, PostgreSQL, and REST APIs. Built and deployed production-ready web applications with authentication, database integration, and scalability in mind."    },
     {
-      title: "AI Intern – Deep Dive LLM",
+      title: "AI Engineer",
       period: "Sep 2025 – Present",
       place: "zakey.tech",
       description:

@@ -6,6 +6,7 @@ import tdd from "../assets/TDD.jpg"
 import Alg from "../assets/alg.png"
 import LLM from "../assets/LLM.jpg"
 import Sprints from "../assets/sprints.jpg"
+import Fullstack from "../assets/fullstack.png"
  export function Certificates() {
   const certificates = [
       {
@@ -55,6 +56,14 @@ import Sprints from "../assets/sprints.jpg"
       issuer: "Sprints Platform",
       date: "SEP 2025",
       ImgCard: Sprints,
+    },
+    {
+      title: "Full Stack JavaScript Developer",
+      description:
+        "Certificate awarded for completing Full Stack JavaScript Developer.",
+      issuer: "Udacity Platform",
+      date: "SEP 2025",
+      ImgCard: Fullstack,
     }
   ];
 
