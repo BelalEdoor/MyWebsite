@@ -47,7 +47,7 @@ export function TrainingSection() {
     },
     {
       title: "Full-Stack Development Nanodegree",
-      period: "August 2025 – Present",
+      period: "August 2025 – Oct 2025",
       place: "Udacity Platform",
       description:
       "Successfully completed the Full-Stack Web Developer Nanodegree, gaining hands-on experience with Angular, Node.js, PostgreSQL, and REST APIs. Built and deployed production-ready web applications with authentication, database integration, and scalability in mind."    },
