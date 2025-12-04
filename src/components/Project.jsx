@@ -1,47 +1,14 @@
 import githubIcon from "../assets/github.svg";
 import externalLink from "../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-import imgBilalStore from "../assets/bilal-store.jpg";
-import imgdentalhub from "../assets/Dentalhub.png"
 import LitMinde from "../assets/LitMinde.jpg"
 import bookshop from "../assets/bookshop.jpeg"
 import Mystore from "../assets/my store.png"
+import AllerPredict from "../assets/AllerPredict.png"
 export function Project() {
   const projects = [
 
-    {
-      title: "E-commerce store",
-      description:
-        "An online store built with React that displays categorized products.It supports search, filtering, and lets users add items to cart or favorites.The interface is responsive, user-friendly, and enables real-time interactions. ",
-      github: "https://github.com/belal3door/E-commerce-store.git",
-      external: "https://github.com/belal3door/E-commerce-store.git",
-      technologies: [
-        "React",
-        "Tailwind CSS",
-        "FakeStore API",
-        "JavaScript",
-        "npm"
-      ],
-      ImgCard: imgBilalStore,
-      
-    },
-    {
-      title: "DentalHub Platform",
-      description:
-        "DentalHub Platform is a digital system for managing dental clinics, offering tools for appointments, patient records, and communication. It enhances workflow efficiency and improves patient experience.",
-      github: "https://github.com/BelalEdoor/DentalHub-Platform.git",
-      external: "https://github.com/BelalEdoor/DentalHub-Platform.git",
-      technologies: 
-      [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Tailwind CSS"
-      ]
-    ,
-      ImgCard: imgdentalhub,
-    },
+    
     {
       title: "LitMinde",
       description:
@@ -69,6 +36,17 @@ export function Project() {
       technologies: ["Node.JS","Express.JS", "APIs", "PostgresQL", "Angular"],
       ImgCard: Mystore,
     },
+    {
+      title: "AllerPredict AI",
+      description:
+        "AllerPredict AI is an intelligent system that detects allergens, evaluates risk levels, and generates ethical scores for products using RAG, embeddings, and AI retrieval to deliver accurate insights and safer alternatives through a smooth chat-based interface.",
+      github: "https://github.com/your-backend-repo , https://github.com/your-frontend-repo",
+      external: "https://github.com/your-backend-repo , https://github.com/your-frontend-repo",
+      technologies: ["Python 3.10+", "FastAPI", "Pydantic", "SentenceTransformers", "NumPy", "Ollama AI", "React 18+", "Tailwind CSS"],
+      ImgCard: AllerPredict,
+    },
+
+
   ];
 
   return (

@@ -7,7 +7,7 @@ import Alg from "../assets/alg.png"
 import LLM from "../assets/LLM.jpg"
 import Sprints from "../assets/sprints.jpg"
 import Fullstack from "../assets/fullstack.png"
-import Docker from "../assets/docker.png"
+
  export function Certificates() {
   const certificates = [
       {
@@ -66,14 +66,7 @@ import Docker from "../assets/docker.png"
       date: "SEP 2025",
       ImgCard: Fullstack,
     },
-    {
-      title: "Introdction to docker",
-      description:
-        "Certificate awarded for completing Introdction to docker.",
-      issuer: "Datacamp Platform",
-      date: "OCT 2025",
-      ImgCard: Docker,
-    }
+  
   ];
 
   return (
