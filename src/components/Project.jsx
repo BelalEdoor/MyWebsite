@@ -3,7 +3,6 @@ import externalLink from "../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import LitMinde from "../assets/LitMinde.jpg"
 import bookshop from "../assets/bookshop.jpeg"
-import Mystore from "../assets/my store.png"
 import AllerPredict from "../assets/AllerPredict.png"
 export function Project() {
   const projects = [
@@ -27,25 +26,26 @@ export function Project() {
       technologies: ["ASP.NET Core", "APIs", "Entity Framework", "SQL Server"],
       ImgCard: bookshop,
     },
-    {
-      title: "My Store",
-      description:
-        "MyStore is a fully integrated online store built using Angular and Node.js with a PostgreSQL database. It allows displaying products, managing orders, and the purchasing process through a modern and fast interface.",
-      github: "https://github.com/BelalEdoor/BelalEdoor-store_angular_Udacity_project.git , https://github.com/BelalEdoor/Shopping_API.git",
-      external: "https://github.com/BelalEdoor/BelalEdoor-store_angular_Udacity_project.git , https://github.com/BelalEdoor/Shopping_API.git",
-      technologies: ["Node.JS","Express.JS", "APIs", "PostgresQL", "Angular"],
-      ImgCard: Mystore,
-    },
-    {
-      title: "AllerPredict AI",
-      description:
-        "AllerPredict AI is an intelligent system that detects allergens, evaluates risk levels, and generates ethical scores for products using RAG, embeddings, and AI retrieval to deliver accurate insights and safer alternatives through a smooth chat-based interface.",
-      github: "https://github.com/your-backend-repo , https://github.com/your-frontend-repo",
-      external: "https://github.com/your-backend-repo , https://github.com/your-frontend-repo",
-      technologies: ["Python 3.10+", "FastAPI", "Pydantic", "SentenceTransformers", "NumPy", "Ollama AI", "React 18+", "Tailwind CSS"],
-      ImgCard: AllerPredict,
-    },
-
+   {
+  title: "AllerPredict AI v2.0",
+  description:
+    "AIntelligent product analysis system using Multi-Agent AI (CrewAI) and RAG technology. 4 specialized agents analyze allergens and safety risks. Dual-mode operation with automatic fallback. Features MCP server integration and 100% local processing for privacy.",
+  github: "https://github.com/BelalEdoor/AllerPredict.git",
+  external: "https://github.com/BelalEdoor/AllerPredict.git",
+  technologies: [
+    "Python",
+    "FastAPI",
+    "CrewAI",
+    "Ollama",
+    "SentenceTransformers",
+    "RAG Pipeline",
+    "MCP",
+    "React.js",
+    "Tailwind CSS",
+    "Vite"
+  ],
+  ImgCard: AllerPredict,
+}
 
   ];
 

@@ -7,6 +7,8 @@ import Alg from "../assets/alg.png"
 import LLM from "../assets/LLM.jpg"
 import Sprints from "../assets/sprints.jpg"
 import Fullstack from "../assets/fullstack.png"
+import data from "../assets/DATA.png";
+import AI from "../assets/AI.png";
 
  export function Certificates() {
   const certificates = [
@@ -65,6 +67,22 @@ import Fullstack from "../assets/fullstack.png"
       issuer: "Udacity Platform",
       date: "SEP 2025",
       ImgCard: Fullstack,
+    },
+    {
+      title: "AI fundamentals",
+      description:
+        "Certificate awarded for completing AI fundamentals.",
+      issuer: "DataCamp",
+      date: "DEC 2025",
+      ImgCard: AI,
+    },
+    {
+      title: "Data Letracy",
+      description:
+        "Certificate awarded for completing Data Letracy.",
+      issuer: "DataCamp",
+      date: "JAN 2026",
+      ImgCard: data,
     },
   
   ];
