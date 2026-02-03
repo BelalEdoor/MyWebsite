@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/MyWebsite/static/css/main.7d7a3751.css",
-    "main.js": "/MyWebsite/static/js/main.837156a6.js",
+    "main.js": "/MyWebsite/static/js/main.b0fd89ad.js",
     "static/media/AllerPredict.png": "/MyWebsite/static/media/AllerPredict.564bccbc404e284d1003.png",
     "static/media/main.png": "/MyWebsite/static/media/main.bd04c3b15e5307f0d447.png",
+    "static/media/AI.png": "/MyWebsite/static/media/AI.99beccdd57bc8241f3a9.png",
+    "static/media/DATA.png": "/MyWebsite/static/media/DATA.f165466e09557ea18d52.png",
     "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.a58097e71f002690cb18.pdf",
     "static/media/fullstack.png": "/MyWebsite/static/media/fullstack.dc4845ade17e12c4c82e.png",
     "static/media/belaledoor1.jpg": "/MyWebsite/static/media/belaledoor1.1aed844515475a8265c2.jpg",
@@ -17,7 +19,6 @@
     "static/media/node_js-removebg-preview.png": "/MyWebsite/static/media/node_js-removebg-preview.8dfb8067bdc62982c811.png",
     "static/media/firebase-cert.jpg": "/MyWebsite/static/media/firebase-cert.1dd661c74d45fe6ceb58.jpg",
     "static/media/web-dev-cert.jpeg": "/MyWebsite/static/media/web-dev-cert.0521cc697449dae9f595.jpeg",
-    "static/media/my store.png": "/MyWebsite/static/media/my store.3e7ea9a75c8e1772024a.png",
     "static/media/typescript.svg": "/MyWebsite/static/media/typescript.c0eb7115ca99c9b18ba0baf90f610f7d.svg",
     "static/media/Logo_C_sharp.svg": "/MyWebsite/static/media/Logo_C_sharp.e2c0510d2b743a87e7621b703ba07906.svg",
     "static/media/whatsapp.svg": "/MyWebsite/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
@@ -34,10 +35,10 @@
     "static/media/linkedin.svg": "/MyWebsite/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/MyWebsite/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "main.7d7a3751.css.map": "/MyWebsite/static/css/main.7d7a3751.css.map",
-    "main.837156a6.js.map": "/MyWebsite/static/js/main.837156a6.js.map"
+    "main.b0fd89ad.js.map": "/MyWebsite/static/js/main.b0fd89ad.js.map"
   },
   "entrypoints": [
     "static/css/main.7d7a3751.css",
-    "static/js/main.837156a6.js"
+    "static/js/main.b0fd89ad.js"
   ]
 }
