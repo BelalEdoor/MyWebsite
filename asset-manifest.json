@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/MyWebsite/static/css/main.7d7a3751.css",
-    "main.js": "/MyWebsite/static/js/main.b0fd89ad.js",
+    "main.js": "/MyWebsite/static/js/main.e28f9e25.js",
     "static/media/AllerPredict.png": "/MyWebsite/static/media/AllerPredict.564bccbc404e284d1003.png",
     "static/media/main.png": "/MyWebsite/static/media/main.bd04c3b15e5307f0d447.png",
+    "static/media/medipredict.png": "/MyWebsite/static/media/medipredict.5505851146a03939fc5d.png",
     "static/media/AI.png": "/MyWebsite/static/media/AI.99beccdd57bc8241f3a9.png",
     "static/media/DATA.png": "/MyWebsite/static/media/DATA.f165466e09557ea18d52.png",
-    "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.a58097e71f002690cb18.pdf",
+    "static/media/My_Resume-Bilal_Edoor.pdf": "/MyWebsite/static/media/My_Resume-Bilal_Edoor.759522eaabe761b23ba4.pdf",
     "static/media/fullstack.png": "/MyWebsite/static/media/fullstack.dc4845ade17e12c4c82e.png",
-    "static/media/belaledoor1.jpg": "/MyWebsite/static/media/belaledoor1.1aed844515475a8265c2.jpg",
+    "static/media/belaledoor1.jpeg": "/MyWebsite/static/media/belaledoor1.a35563a41d97f16619ee.jpeg",
     "static/media/alg.png": "/MyWebsite/static/media/alg.5d04555439903016d5e9.png",
     "static/media/sprints.jpg": "/MyWebsite/static/media/sprints.cd74f2663ba864037440.jpg",
     "static/media/LLM.jpg": "/MyWebsite/static/media/LLM.3e01f4bc29f91f472db7.jpg",
     "static/media/asp-removebg-preview.png": "/MyWebsite/static/media/asp-removebg-preview.ac782bc003e944b576c5.png",
-    "static/media/bookshop.jpeg": "/MyWebsite/static/media/bookshop.64a84d5c775fb32a1a29.jpeg",
     "static/media/TDD.jpg": "/MyWebsite/static/media/TDD.167f2d7c3264cd143511.jpg",
+    "static/media/bookE.png": "/MyWebsite/static/media/bookE.7a22c9abbb9e8e966fec.png",
     "static/media/LitMinde.jpg": "/MyWebsite/static/media/LitMinde.8db5b94aa584928b7401.jpg",
     "static/media/node_js-removebg-preview.png": "/MyWebsite/static/media/node_js-removebg-preview.8dfb8067bdc62982c811.png",
     "static/media/firebase-cert.jpg": "/MyWebsite/static/media/firebase-cert.1dd661c74d45fe6ceb58.jpg",
@@ -35,10 +36,10 @@
     "static/media/linkedin.svg": "/MyWebsite/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/MyWebsite/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "main.7d7a3751.css.map": "/MyWebsite/static/css/main.7d7a3751.css.map",
-    "main.b0fd89ad.js.map": "/MyWebsite/static/js/main.b0fd89ad.js.map"
+    "main.e28f9e25.js.map": "/MyWebsite/static/js/main.e28f9e25.js.map"
   },
   "entrypoints": [
     "static/css/main.7d7a3751.css",
-    "static/js/main.b0fd89ad.js"
+    "static/js/main.e28f9e25.js"
   ]
 }
