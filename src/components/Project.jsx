@@ -2,8 +2,9 @@ import githubIcon from "../assets/github.svg";
 import externalLink from "../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import LitMinde from "../assets/LitMinde.jpg"
-import bookshop from "../assets/bookshop.jpeg"
+import bookshop from "../assets/bookE.png"
 import AllerPredict from "../assets/AllerPredict.png"
+import medipredict from "../assets/medipredict.png"
 export function Project() {
   const projects = [
 
@@ -45,7 +46,17 @@ export function Project() {
     "Vite"
   ],
   ImgCard: AllerPredict,
-}
+
+},
+{
+      title: "Patient Deterioration Prediction System",
+      description:
+        "The Patient Deterioration Prediction System is a machine learning-based application that predicts patient deterioration in hospital settings using real-time vital signs and clinical data.",
+      github: "https://github.com/BelalEdoor/Patient_Deterioration_Risk_Prediction.git",
+      external: "https://github.com/BelalEdoor/Patient_Deterioration_Risk_Prediction.git",
+      technologies: ["FastAPI", "TensorFlow", "Pandas", "NumPy", "Scikit-learn","React JS"],
+      ImgCard: medipredict,
+    },
 
   ];
 

@@ -1,4 +1,4 @@
-  import belaledoor from "../assets/belaledoor1.jpg";
+  import belaledoor from "../assets/belaledoor1.jpeg";
   import python from "../assets/python.svg";
   import jsIcon from "../assets/js-icon.svg";
   import ScrollAnimation from "react-animate-on-scroll";
